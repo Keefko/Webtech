@@ -1,0 +1,3320 @@
+{
+  "meniny": {
+    "zaznam": [
+      {
+        "den": "0101",
+        "SKsviatky": "Deň vzniku Slovenskej republiky",
+        "CZsviatky": "Den obnovy samostatného českého státu",
+        "HU": "Fruzsina",
+        "PL": "Mieszka, Mieczyslawa",
+        "AT": "Neujahr"
+      },
+      {
+        "den": "0102",
+        "SK": "Alexandra, Karina",
+        "SKd": "Alexandra, Karina, Ábel, Makar, Karin, Kara, Sandra, Saša",
+        "CZ": "Karina",
+        "HU": "Ábel",
+        "PL": "Izydora, Grzegorza",
+        "AT": "Basilius"
+      },
+      {
+        "den": "0103",
+        "SK": "Daniela",
+        "SKd": "Daniela, Danila, Danuta, Genovéva, Radmila",
+        "CZ": "Radmila",
+        "HU": "Genovéva, Benjámin",
+        "PL": "Danuty, Zdzislawa",
+        "AT": "Genoveva"
+      },
+      {
+        "den": "0104",
+        "SK": "Drahoslav",
+        "SKd": "Drahoslav, Drahoľub, Drahomil, Drahoň, Drahoš, Duchoslav, León, Títus, Drahoľuba, Drahomila, Duchoslava, Leóna, Leónia",
+        "CZ": "Diana",
+        "HU": "Titusz, Leóna",
+        "PL": "Elzbiety, Anieli",
+        "AT": "Angela"
+      },
+      {
+        "den": "0105",
+        "SK": "Andrea",
+        "SKd": "Andrea, Artúr",
+        "CZ": "Dalimil",
+        "HU": "Simon",
+        "PL": "Hanny, Edwarda, Szymona",
+        "AT": "Emilie"
+      },
+      {
+        "den": "0106",
+        "SK": "Antónia",
+        "SKd": "Antónia, Melchior, Melichar, Menhard",
+        "SKsviatky": "Zjavenie Pána (Traja králi a vianočný sviatok pravoslávnych kresťanov)",
+        "HU": "Boldizsár",
+        "PL": "Kacpra, Mekchiora, Baltazara",
+        "AT": "Heilige 3 Könige"
+      },
+      {
+        "den": "0107",
+        "SK": "Bohuslava",
+        "SKd": "Bohuslava, Attila, Lucián, Bohuna, Boleslava, Božislava, Luciána",
+        "CZ": "Vilma",
+        "HU": "Attila, Ramóna",
+        "PL": "Lucjana, Juliana",
+        "AT": "Raimund v. P."
+      },
+      {
+        "den": "0108",
+        "SK": "Severín",
+        "SKd": "Severín, Čestmír, Pravomil, Čestmíra, Pravomila, Severína",
+        "CZ": "Čestmir",
+        "HU": "Gyöngyvér",
+        "PL": "Seweryna, Juliusza",
+        "AT": "Severin, Erhard"
+      },
+      {
+        "den": "0109",
+        "SK": "Alexej",
+        "SKd": "Alexej, Alex, Domoľub, Julián, Pravoľub, Vladan, Vladen, Alexia, Pravoľuba, Vladana, Vladena",
+        "CZ": "Vladan",
+        "HU": "Marcell",
+        "PL": "Adriana, Marceliny",
+        "AT": "Julian, Eberhard"
+      },
+      {
+        "den": "0110",
+        "SK": "Dáša",
+        "SKd": "Dáša, Agatón, Dalimil, Dalimír, Dalimila, Dalimíra",
+        "CZ": "Břetislav",
+        "HU": "Melánia",
+        "PL": "Danuty, Wilhelma",
+        "AT": "Gregor X."
+      },
+      {
+        "den": "0111",
+        "SK": "Malvína",
+        "SKd": "Malvína, Honorát, Tasilo, Honoráta",
+        "CZ": "Bohdana",
+        "HU": "Ágota",
+        "PL": "Honoraty, Matyldy",
+        "AT": "Taufe Jesu"
+      },
+      {
+        "den": "0112",
+        "SK": "Ernest",
+        "SKd": "Ernest, Arkád, Arnošt, Arkádia, Arnoštka, Erna, Ernestína",
+        "CZ": "Pravoslav",
+        "HU": "Ernő",
+        "PL": "Ady, Benedykta, Arkadiusza",
+        "AT": "Ernst"
+      },
+      {
+        "den": "0113",
+        "SK": "Rastislav",
+        "SKd": "Rastislav, Čistomil, Čistoslav, Rastic, Rastimír, Ratislav, Vidor, Čistomila, Čistoslava, Rastislava, Ratislava",
+        "CZ": "Edita",
+        "HU": "Veronika",
+        "PL": "Bogumily, Weroniki",
+        "AT": "Jutta, Gottfried"
+      },
+      {
+        "den": "0114",
+        "SK": "Radovan",
+        "SKd": "Radovan, Hilár, Uriáš, Uriel, Hilária, Radovana,",
+        "CZ": "Radovan",
+        "HU": "Bódog",
+        "PL": "Feliksa, Niny",
+        "AT": "Felix v. N."
+      },
+      {
+        "den": "0115",
+        "SK": "Dobroslav",
+        "SKd": "Dobroslav, Dobrotín, Domoslav, Loránt, Múdroslav, Domoslava,",
+        "CZ": "Alice",
+        "HU": "Lóránd, Lóránt",
+        "PL": "Pawla, Arnolda, Izydora",
+        "AT": "Gabriel v. F."
+      },
+      {
+        "den": "0116",
+        "SK": "Kristína",
+        "SKd": "Kristína",
+        "CZ": "Ctirad",
+        "HU": "Gusztáv",
+        "PL": "Marcelego, Wlodzimierza",
+        "AT": "Theobald"
+      },
+      {
+        "den": "0117",
+        "SK": "Nataša",
+        "SKd": "Nataša,Aneta, Sofia, Marta, Anna",
+        "CZ": "Drahoslav",
+        "HU": "Antal, Antónia",
+        "PL": "Antoniego, Jana",
+        "AT": "Antonius"
+      },
+      {
+        "den": "0118",
+        "SK": "Bohdana",
+        "SKd": "Bohdana, Priskus, Piroška, Priska",
+        "CZ": "Vladislav",
+        "HU": "Piroska",
+        "PL": "Malgorzaty, Piotra",
+        "AT": "Regina"
+      },
+      {
+        "den": "0119",
+        "SK": "Drahomíra, Mário",
+        "SKd": "Drahomíra, Mário, Sára, Márius, Dúbravka",
+        "CZ": "Doubravka",
+        "HU": "Sára, Márió",
+        "PL": "Henryka, Marty",
+        "AT": "Marius, Mario"
+      },
+      {
+        "den": "0120",
+        "SK": "Dalibor",
+        "SKd": "Dalibor, Fabián, Fábius, Sebastián, Šebastián, Fábia, Fabiána, Fabiola, Sebastiána,",
+        "CZ": "Ilona",
+        "HU": "Fábián, Sebestyén",
+        "PL": "Fabiana, Sebastiana",
+        "AT": "Fabian, Sebastian"
+      },
+      {
+        "den": "0121",
+        "SK": "Vincent",
+        "SKd": "Vincent, Vincencia",
+        "CZ": "Běla",
+        "HU": "Ágnes",
+        "PL": "Agnieszki, Jaroslawa",
+        "AT": "Agnes"
+      },
+      {
+        "den": "0122",
+        "SK": "Zora",
+        "SKd": "Zora, Dorián, Sírius, Slavoľub, Slavomil, Zoran, Auróra, Cyntia, Doriána, Sinda, Slavomila, Zorana, Zara",
+        "CZ": "Slavomir",
+        "HU": "Vince, Artúr",
+        "PL": "Anastazego, Wincentego",
+        "AT": "Vinzenz, Walter"
+      },
+      {
+        "den": "0123",
+        "SK": "Miloš",
+        "SKd": "Miloš, Miloň, Selma,",
+        "CZ": "Zdeněk",
+        "HU": "Zelma, Rajmund",
+        "PL": "Ildefonsas, Rajmunda",
+        "AT": "Heinrich S."
+      },
+      {
+        "den": "0124",
+        "SK": "Timotej",
+        "SKd": "Timotej, Ctiboh, Timotea",
+        "CZ": "Milena",
+        "HU": "Timót",
+        "PL": "Rafala, Felicji, Franciszska",
+        "AT": "Franz v. S."
+      },
+      {
+        "den": "0125",
+        "SK": "Gejza",
+        "SKd": "Gejza, Saul, Šavol,",
+        "CZ": "Miloš",
+        "HU": "Pál",
+        "PL": "Pawla, Milosza",
+        "AT": "Pauli Bekehrung"
+      },
+      {
+        "den": "0126",
+        "SK": "Tamara",
+        "SKd": "Tamara, Tamia, Polykarp, Slavibor, Slavislav, Slaviboj, Slavoboj, Svätoboj, Svätobor, Xenofón, Žarko, Polykarpa,",
+        "CZ": "Zora",
+        "HU": "Vanda, Paula",
+        "PL": "Tymoteusza, Michala",
+        "AT": "Timotheus, Titus"
+      },
+      {
+        "den": "0127",
+        "SK": "Bohuš",
+        "SKd": "Bohuš, Pribislav, Pribiš,",
+        "CZ": "Ingrid",
+        "HU": "Angelika",
+        "PL": "Anieli, Jerzego",
+        "AT": "Angela M."
+      },
+      {
+        "den": "0128",
+        "SK": "Alfonz",
+        "SKd": "Alfonz, Manfréd, Alfonzia,",
+        "CZ": "Otýlie",
+        "HU": "Károly, Karola",
+        "PL": "Walerego, Karola",
+        "AT": "Thomas v. A."
+      },
+      {
+        "den": "0129",
+        "SK": "Gašpar",
+        "SKd": "Gašpar, Pribina",
+        "CZ": "Zdislava",
+        "HU": "Adél",
+        "PL": "Franciszka, Jozefa",
+        "AT": "Valerius"
+      },
+      {
+        "den": "0130",
+        "SK": "Ema",
+        "SKd": "Ema, Jasna",
+        "CZ": "Robin",
+        "HU": "Martina",
+        "PL": "Macieja, Martyny",
+        "AT": "Martina"
+      },
+      {
+        "den": "0131",
+        "SK": "Emil",
+        "SKd": "Emil, Emilián, Emiliána, Marika",
+        "CZ": "Marika",
+        "HU": "Marcella, Gerda",
+        "PL": "Jana, Marceli, Ludwiki",
+        "AT": "Johannes Bosco"
+      },
+      {
+        "den": "0201",
+        "SK": "Tatiana",
+        "SKd": "Tatiana, Hynek, Trifon, Táňa, Girron",
+        "CZ": "Hynek",
+        "HU": "Ignác",
+        "PL": "Brygidy, Ignacego",
+        "AT": "Brigitta v. K."
+      },
+      {
+        "den": "0202",
+        "SK": "Erika, Erik",
+        "SKd": "Erik, Erika, Aida",
+        "CZ": "Nela",
+        "HU": "Karolina, Aida",
+        "PL": "Marii, Miroslawa",
+        "AT": "Mariä Lichtmess"
+      },
+      {
+        "den": "0203",
+        "SK": "Blažej",
+        "SKd": "Blažej, Celerín, Celerína",
+        "CZ": "Blažej",
+        "HU": "Balázs",
+        "PL": "Blazeja, Oskara",
+        "AT": "Blasius"
+      },
+      {
+        "den": "0204",
+        "SK": "Veronika",
+        "SKd": "Veronika, Nika, Verena, Verona",
+        "CZ": "Jarmila",
+        "HU": "Ráhel, Csenge",
+        "PL": "Andrzeja, Jozefa, Tytusa",
+        "AT": "Andreas C."
+      },
+      {
+        "den": "0205",
+        "SK": "Agáta",
+        "SKd": "Agáta, Moderát, Modest, Leda, Moderáta, Modesta",
+        "CZ": "Dobromila",
+        "HU": "Ágota, Ingrid",
+        "PL": "Agaty, Adelajdy",
+        "AT": "Agatha"
+      },
+      {
+        "den": "0206",
+        "SK": "Dorota",
+        "SKd": "Dorota, Dorisa, Titanila",
+        "CZ": "Vanda",
+        "HU": "Dorottya, Dóra",
+        "PL": "Doroty, Bogdana, Pawla",
+        "AT": "Dorothea"
+      },
+      {
+        "den": "0207",
+        "SK": "Vanda",
+        "SKd": "Vanda, Romuald",
+        "CZ": "Veronika",
+        "HU": "Tódor, Rómeó",
+        "PL": "Ryszarda, Teodora",
+        "AT": "Richard K."
+      },
+      {
+        "den": "0208",
+        "SK": "Zoja",
+        "SKd": "Zoja, Aranka, Zoe",
+        "CZ": "Milada",
+        "HU": "Aranka",
+        "PL": "Hieronima, Sebastiana",
+        "AT": "Hieronymus"
+      },
+      {
+        "den": "0209",
+        "SK": "Zdenko",
+        "SKd": "Zdenko, Rainold, Rinaldo, Zdeno, Apolena, Apoliena, Apolónia",
+        "CZ": "Apolena",
+        "HU": "Abigél, Alex",
+        "PL": "Apoliny, Eryki, Cyryla",
+        "AT": "Apollonia, Erich"
+      },
+      {
+        "den": "0210",
+        "SK": "Gabriela",
+        "SKd": "Gabriela, Scholastika, Školastika",
+        "CZ": "Mojmir",
+        "HU": "Elvira",
+        "PL": "Elwiry, Jacka",
+        "AT": "Wilhelm d. Gr."
+      },
+      {
+        "den": "0211",
+        "SK": "Dezider",
+        "SKd": "Dezider, Želislav, Dezidera, Želislava",
+        "CZ": "Božena",
+        "HU": "Bertold, Marietta",
+        "PL": "Grzegorza, Lucjana",
+        "AT": "Theodor"
+      },
+      {
+        "den": "0212",
+        "SK": "Perla",
+        "SKd": "Perla, Ron, Ronald, Zoro, Zoroslav, Eulália, Slavena, Solveiga, Zoroslava",
+        "CZ": "Slavěna",
+        "HU": "Livia, Lidia",
+        "PL": "Radoslawa, Damiana",
+        "AT": "Reginald"
+      },
+      {
+        "den": "0213",
+        "SK": "Arpád",
+        "SKd": "Arpád, Jordán, Jordána",
+        "CZ": "Věnceslav",
+        "HU": "Ella, Linda",
+        "PL": "Grzegorza, Katarzyny",
+        "AT": "Gerlinde"
+      },
+      {
+        "den": "0214",
+        "SK": "Valentín",
+        "SKd": "Valentín, Velimír",
+        "CZ": "Valentýn",
+        "HU": "Bálint, Valentin",
+        "PL": "Cyryla, Metodego",
+        "AT": "Valentin"
+      },
+      {
+        "den": "0215",
+        "SK": "Pravoslav",
+        "SKd": "Pravoslav, Faust, Faustína, Georgia, Georgína, Pravoslava",
+        "CZ": "Jiřina",
+        "HU": "Kolos, Georgina",
+        "PL": "Jowity, Faustyna",
+        "AT": "Siegfried"
+      },
+      {
+        "den": "0216",
+        "SK": "Ida, Liana",
+        "SKd": "Ida, Liana, Pamfil, Pamfília",
+        "CZ": "Ljuba",
+        "HU": "Julianna, Lilla",
+        "PL": "Danuty, Juliana",
+        "AT": "Philippa"
+      },
+      {
+        "den": "0217",
+        "SK": "Miloslava",
+        "SKd": "Miloslava, Flavián, Flávius, Silván, Silvín, Flávia, Milomíra, Miluša, Silvána",
+        "CZ": "Miloslava",
+        "HU": "Donát",
+        "PL": "Aleksego, Lukasza",
+        "AT": "Alexius"
+      },
+      {
+        "den": "0218",
+        "SK": "Jaromír",
+        "SKd": "Jaromír, Simeon, Jaromíra, Konkordia, Bernadetta",
+        "CZ": "Gizela",
+        "HU": "Bernadett",
+        "PL": "Szymona, Konstancji",
+        "AT": "Konstantia"
+      },
+      {
+        "den": "0219",
+        "SK": "Vlasta",
+        "SKd": "Vlasta, Konrád, Kurt",
+        "CZ": "Patrik",
+        "HU": "Zsuzsanna",
+        "PL": "Arnolda, Jozefa, Konrada",
+        "AT": "Bonifatius"
+      },
+      {
+        "den": "0220",
+        "SK": "Lívia",
+        "SKd": "Lívia, Aladár, Lívio, Lívius, Udo, Ulrich, Alma, Ulrika, Ulriška",
+        "CZ": "Oldřich",
+        "HU": "Aladár, Álmos",
+        "PL": "Leona, Ludomira",
+        "AT": "Leo d. W."
+      },
+      {
+        "den": "0221",
+        "SK": "Eleonóra",
+        "SKd": "Eleonóra",
+        "CZ": "Lenka",
+        "HU": "Eleonóra",
+        "PL": "Roberta, Eleonory",
+        "AT": "Petrus Dam."
+      },
+      {
+        "den": "0222",
+        "SK": "Etela",
+        "SKd": "Etela",
+        "CZ": "Petr",
+        "HU": "Gerzson",
+        "PL": "Marty, Malgorzaty",
+        "AT": "Petri Stuhlfeier"
+      },
+      {
+        "den": "0223",
+        "SK": "Roman, Romana",
+        "SKd": "Roman, Romana, Romina",
+        "CZ": "Svatopluk",
+        "HU": "Alfréd",
+        "PL": "Romany, Damiana",
+        "AT": "Romana"
+      },
+      {
+        "den": "0224",
+        "SK": "Matej",
+        "SKd": "Matej, Jazmína, Goran, Mateja, Matias, Mateo,Matiáš",
+        "CZ": "Matěj",
+        "HU": "Elemér",
+        "PL": "Macieja, Marka",
+        "AT": "Mathias"
+      },
+      {
+        "den": "0225",
+        "SK": "Frederik, Frederika",
+        "SKd": "Frederik, Frederika, Taras, Federika",
+        "CZ": "Liliana",
+        "HU": "Mátyás",
+        "PL": "Cezarego, Donata",
+        "AT": "Walpurga"
+      },
+      {
+        "den": "0226",
+        "SK": "Viktor",
+        "SKd": "Viktor, Porfýr, Edina",
+        "CZ": "Dorota",
+        "HU": "Géza",
+        "PL": "Miroslawa, Aleksandra",
+        "AT": "Alexander"
+      },
+      {
+        "den": "0227",
+        "SK": "Alexander",
+        "SKd": "Alexander, Leander, Sandro, Skender, Drahotína, Dražica, Leandra",
+        "CZ": "Alexandr",
+        "HU": "Edina",
+        "PL": "Gabriela, Anastazji",
+        "AT": "Leander, Gabriel"
+      },
+      {
+        "den": "0228",
+        "SK": "Zlatica",
+        "SKd": "Zlatica, Elemír, Elo, Lumír, Zlata",
+        "CZ": "Lumir",
+        "HU": "Ákos, Bátor",
+        "PL": "Romana, Ludomira",
+        "AT": "Roman"
+      },
+      {
+        "den": "0229",
+        "SK": "Radomír",
+        "SKd": "Radomír, Radomíra"
+      },
+      {
+        "den": "0301",
+        "SK": "Albín",
+        "SKd": "Albín",
+        "CZ": "Bedřich",
+        "HU": "Albin",
+        "PL": "Albina, Antoniego",
+        "AT": "Albin, Rüdiger"
+      },
+      {
+        "den": "0302",
+        "SK": "Anežka",
+        "SKd": "Anežka",
+        "CZ": "Anežka",
+        "HU": "Lujza",
+        "PL": "Heleny, Halszki",
+        "AT": "Karl, Agnes"
+      },
+      {
+        "den": "0303",
+        "SK": "Bohumil, Bohumila",
+        "SKd": "Bohumil, Bohumila, Ticián, Ginda, Kunigunda, Ticiána",
+        "CZ": "Kamil",
+        "HU": "Kornélia",
+        "PL": "Maryny, Kunegundy",
+        "AT": "Friedrich"
+      },
+      {
+        "den": "0304",
+        "SK": "Kazimír",
+        "SKd": "Kazimír, Kevin, Gerazim, Romeo, Jadrana, Kazimíra",
+        "CZ": "Stela",
+        "HU": "Kázmér",
+        "PL": "Arkadiusza, Eugeniusza, Kazimi",
+        "AT": "Kasimir"
+      },
+      {
+        "den": "0305",
+        "SK": "Fridrich",
+        "SKd": "Fridrich, Lucius, Teofil, Friderika, Teofila",
+        "CZ": "Kazimír",
+        "HU": "Adorján, Adrián",
+        "PL": "Adryjana, Fryderyka",
+        "AT": "Gerda, Diemar"
+      },
+      {
+        "den": "0306",
+        "SK": "Radoslav, Radoslava",
+        "SKd": "Radoslav, Radoslava, Fridolín, Koriolán, Radislav, Radovan, Felícia, Fridolína, Radislava",
+        "CZ": "Miroslav",
+        "HU": "Leonóra, Inez",
+        "PL": "Rozy, Wiktora",
+        "AT": "Coletta, Fridolin"
+      },
+      {
+        "den": "0307",
+        "SK": "Tomáš",
+        "SKd": "Tomáš, Tomislav, Tomáška, Tomislava",
+        "CZ": "Tomáš",
+        "HU": "Tamás",
+        "PL": "Tomasza, Felicyty",
+        "AT": "Reinhard"
+      },
+      {
+        "den": "0308",
+        "SK": "Alan, Alana",
+        "SKd": "Alan, Alana",
+        "CZ": "Gabriela",
+        "HU": "Zoltán",
+        "PL": "Beaty, Wincentego",
+        "AT": "Johannes v. G."
+      },
+      {
+        "den": "0309",
+        "SK": "Františka",
+        "SKd": "Františka, Erhard",
+        "CZ": "Františka",
+        "HU": "Franciska, Fanni",
+        "PL": "Franciszki, Dominiki",
+        "AT": "Franziska v. R."
+      },
+      {
+        "den": "0310",
+        "SK": "Bruno, Branislav",
+        "SKd": "Branislav, Bruno, Bratislav, Bronislav, Bratislava, Taras",
+        "CZ": "Viktorie",
+        "HU": "Ildikó",
+        "PL": "Cypriana, Aleksandra",
+        "AT": "Emil, Gustav"
+      },
+      {
+        "den": "0311",
+        "SK": "Angela, Angelika",
+        "SKd": "Angela, Angelika, Angel, Volfram, Algelína, Jurina",
+        "CZ": "Anděla",
+        "HU": "Szilárd",
+        "PL": "Benedykta, Konstantego",
+        "AT": "Theresia R."
+      },
+      {
+        "den": "0312",
+        "SK": "Gregor",
+        "SKd": "Gregor, Teofan, Gregora, Gregoria, Gregorína",
+        "CZ": "Řehoř",
+        "HU": "Gergely",
+        "PL": "Alojzego, Bernarda",
+        "AT": "Maximilian"
+      },
+      {
+        "den": "0313",
+        "SK": "Vlastimil",
+        "SKd": "Vlastimil, Kira, Rozína",
+        "CZ": "Růžena",
+        "HU": "Krisztián, Ajtony",
+        "PL": "Bozeny, Krystyny",
+        "AT": "Gerald, Paulina"
+      },
+      {
+        "den": "0314",
+        "SK": "Matilda",
+        "SKd": "Matilda, Metaneta",
+        "CZ": "Matylda, Růt",
+        "HU": "Matild",
+        "PL": "Leona, Martyny",
+        "AT": "Mathilde"
+      },
+      {
+        "den": "0315",
+        "SK": "Svetlana",
+        "SKd": "Svetlana, Agap, Belomír, Rodan, Roderich, Roderik, Torkvát, Agapa, Agapia, Rodana, Roderika",
+        "CZ": "Ida",
+        "HU": "Kristóf",
+        "PL": "Longina, Klemensa",
+        "AT": "Klemens M. H."
+      },
+      {
+        "den": "0316",
+        "SK": "Boleslav",
+        "SKd": "Boleslav, Amos, Bolemír, Heribert, Bolemíra",
+        "CZ": "Elena, Herbert",
+        "HU": "Henrietta",
+        "PL": "Izabeli, Oktawii",
+        "AT": "Hilarius v. A."
+      },
+      {
+        "den": "0317",
+        "SK": "Ľubica",
+        "SKd": "Ľubica, Ľuban, Ľuben, Zbignev, Zbyšek, Ľuba",
+        "CZ": "Vlastimil",
+        "HU": "Gertrúd, Patrik",
+        "PL": "Patryka, Zbigniewa",
+        "AT": "Getrud"
+      },
+      {
+        "den": "0318",
+        "SK": "Eduard",
+        "SKd": "Eduard, Ctislav, Salvátor, Ctislava, Eduarda",
+        "CZ": "Eduard",
+        "HU": "Sándor, Ede",
+        "PL": "Cyryla, Edwarda",
+        "AT": "Eduard"
+      },
+      {
+        "den": "0319",
+        "SK": "Jozef",
+        "SKd": "Jozef, Sibyla",
+        "CZ": "Josef",
+        "HU": "József, Bánk",
+        "PL": "Jozefa, Bogdana",
+        "AT": "Josev, Nährv. Jesu"
+      },
+      {
+        "den": "0320",
+        "SK": "Víťazoslav, Klaudius",
+        "SKd": "Víťazoslav, Klaudián, Klaudín, Klaudio, Klaudius, Víťazoslava",
+        "CZ": "Světlana",
+        "HU": "Klaudia",
+        "PL": "Klaudii, Eufemii",
+        "AT": "Claudia, Irmgard"
+      },
+      {
+        "den": "0321",
+        "SK": "Blahoslav",
+        "SKd": "Blahoslav, Blahoboj, Blahosej, Radek, Radko",
+        "CZ": "Radek",
+        "HU": "Benedek",
+        "PL": "Ludomira, Benedykta",
+        "AT": "Alexandra"
+      },
+      {
+        "den": "0322",
+        "SK": "Beňadik",
+        "SKd": "Beňadik, Benedikt, Oktavián, Oktávius, Benedikta, Benilda, Benita, Izolda, Oktávia",
+        "CZ": "Leona",
+        "HU": "Beáta, Izolda",
+        "PL": "Katarzyny, Boguslawa",
+        "AT": "Lea, Elmar"
+      },
+      {
+        "den": "0323",
+        "SK": "Adrián",
+        "SKd": "Adrián, Apián, Dárius, Viktorián, Apia",
+        "CZ": "Ivona",
+        "HU": "Emőke",
+        "PL": "Pelagii, Feliksa",
+        "AT": "Otto v. A."
+      },
+      {
+        "den": "0324",
+        "SK": "Gabriel",
+        "SKd": "Gabriel",
+        "CZ": "Gabriel",
+        "HU": "Gábor, Karina",
+        "PL": "Marka, Gabriela",
+        "AT": "Katharina v. Schw."
+      },
+      {
+        "den": "0325",
+        "SK": "Marián",
+        "SKd": "Marián, Humbert, Anunciáta, Irida, Irisa",
+        "SKdni": "Deň zápasu za ľudské práva",
+        "CZ": "Marián",
+        "HU": "Irén, Irisz",
+        "PL": "Marioli, Wienczyslawa",
+        "AT": "Verkündung des Herrn"
+      },
+      {
+        "den": "0326",
+        "SK": "Emanuel",
+        "SKd": "Emanuel, Eman, Manuel, Emanuela, Manuela",
+        "CZ": "Emanuel",
+        "HU": "Emánuel",
+        "PL": "Emanuela, Larysy, Teodora",
+        "AT": "Emmanuel"
+      },
+      {
+        "den": "0327",
+        "SK": "Alena",
+        "SKd": "Alena, Rupert, Ruprecht, Dita",
+        "CZ": "Dita",
+        "HU": "Hajnalka",
+        "PL": "Lidii, Ernesta",
+        "AT": "Frowin, Haimo"
+      },
+      {
+        "den": "0328",
+        "SK": "Soňa",
+        "SKd": "Soňa, Ilarion",
+        "CZ": "Soňa",
+        "HU": "Gedeon, Johanna",
+        "PL": "Anieli, Jana",
+        "AT": "Johanna v. M."
+      },
+      {
+        "den": "0329",
+        "SK": "Miroslav",
+        "SKd": "Miroslav, Mieroslav, Bertold, Bertolda, Mieroslava",
+        "CZ": "Taťána",
+        "HU": "Auguszta",
+        "PL": "Viktoryna, Helmuta",
+        "AT": "Berthold v. K."
+      },
+      {
+        "den": "0330",
+        "SK": "Vieroslava",
+        "SKd": "Vieroslava, Vieroľub, Vieromil, Vieroslav,",
+        "CZ": "Arnošt",
+        "HU": "Zalán",
+        "PL": "Anieli, Leonarda",
+        "AT": "Amadeus v. S."
+      },
+      {
+        "den": "0331",
+        "SK": "Benjamín",
+        "SKd": "Benjamín, Kvído, Balbína",
+        "CZ": "Kvido",
+        "HU": "Árpád",
+        "PL": "Beniamina, Balbiny",
+        "AT": "Cornelia"
+      },
+      {
+        "den": "0401",
+        "SK": "Hugo",
+        "SKd": "Hugo, Hugolín",
+        "CZ": "Hugo",
+        "HU": "Hugó",
+        "PL": "Grazyny, Ireny",
+        "AT": "Hugo, Irene"
+      },
+      {
+        "den": "0402",
+        "SK": "Zita",
+        "SKd": "Zita, Áron",
+        "CZ": "Erika",
+        "HU": "Áron",
+        "PL": "Wladyslawa, Franciszka",
+        "AT": "Sandra"
+      },
+      {
+        "den": "0403",
+        "SK": "Richard",
+        "SKd": "Richard, Richarda",
+        "CZ": "Richard",
+        "HU": "Buda, Richard",
+        "PL": "Ryszarda, Ireny",
+        "AT": "Richard"
+      },
+      {
+        "den": "0404",
+        "SK": "Izidor",
+        "SKd": "Izidor, Izidora",
+        "CZ": "Ivana",
+        "HU": "Izidor",
+        "PL": "Benedykta, Izydora",
+        "AT": "Isidor"
+      },
+      {
+        "den": "0405",
+        "SK": "Miroslava",
+        "SKd": "Miroslava, Mira",
+        "CZ": "Miroslava",
+        "HU": "Vince",
+        "PL": "Katarzyny, Wincentego",
+        "AT": "Vinzenz Ferr."
+      },
+      {
+        "den": "0406",
+        "SK": "Irena",
+        "SKd": "Irena, Irína, Celestín, Ruben, Sixtus, Celestína, Venuša",
+        "CZ": "Vendula",
+        "HU": "Vilmos, Biborka",
+        "PL": "Izoldy, Ireneusza",
+        "AT": "Sixtus I. Cölestin"
+      },
+      {
+        "den": "0407",
+        "SK": "Zoltán",
+        "SKd": "Zoltán, Armand, Herman, Rufínus, Rúfus, Armanda, Rufína, Rumjana",
+        "CZ": "Heřman, Hermína",
+        "HU": "Herman",
+        "PL": "Rufina, Donata",
+        "AT": "Johann Bapt. de la Salle"
+      },
+      {
+        "den": "0408",
+        "SK": "Albert",
+        "SKd": "Albert, Albertín, Albrecht, Valter, Alberta, Albertína, Albrechta",
+        "CZ": "Ema",
+        "HU": "Dénes",
+        "PL": "Dionizego, Julii",
+        "AT": "Walter, Beate"
+      },
+      {
+        "den": "0409",
+        "SK": "Milena",
+        "SKd": "Milena, Erhard, Mileva",
+        "CZ": "Dušan",
+        "HU": "Erhard",
+        "PL": "Marii, Dymitra",
+        "AT": "Waltraud"
+      },
+      {
+        "den": "0410",
+        "SK": "Igor",
+        "SKd": "Igor, Ezechiel, Ivar, Ivor, Radomil, Igora, Radomila",
+        "CZ": "Darja",
+        "HU": "Zsolt",
+        "PL": "Michala, Makarego",
+        "AT": "Engelbert v. A."
+      },
+      {
+        "den": "0411",
+        "SK": "Július",
+        "SKd": "Július, Antip, Ariel, Ariela, Arleta, Leo, Lev,",
+        "CZ": "Izabela",
+        "HU": "Leó, Szaniszló",
+        "PL": "Filipa, Leona",
+        "AT": "Stanislaus"
+      },
+      {
+        "den": "0412",
+        "SK": "Estera",
+        "SKd": "Estera, Aster, Davorín, Zenon, Astéria",
+        "CZ": "Julius",
+        "HU": "Gyula",
+        "PL": "Damiana, Juliusza",
+        "AT": "Julius, Hertha"
+      },
+      {
+        "den": "0413",
+        "SK": "Aleš",
+        "SKd": "Aleš, Artem, Artemon, Artemia, Artemida, Norma",
+        "SKdni": "Deň nespravodlivo stíhaných",
+        "CZ": "Aleš",
+        "HU": "Ida",
+        "PL": "Przemyslawa, Idy",
+        "AT": "Martin I., Ida v B."
+      },
+      {
+        "den": "0414",
+        "SK": "Justina",
+        "SKd": "Justína, Hrdoslav, Hrdoš, Justín, Davorína, Hrdoslava, Justa",
+        "CZ": "Vincenc",
+        "HU": "Tibor",
+        "PL": "Bereniki, Waleriana",
+        "AT": "Tiburtius"
+      },
+      {
+        "den": "0415",
+        "SK": "Fedor",
+        "SKd": "Fedor, Fedora",
+        "CZ": "Anastázie",
+        "HU": "Anasztázia, Tas",
+        "PL": "Ludwiny, Waclawy",
+        "AT": "Waltmann"
+      },
+      {
+        "den": "0416",
+        "SK": "Dana, Danica",
+        "SKd": "Dana, Danica",
+        "CZ": "Irena",
+        "HU": "Csongor",
+        "PL": "Cecyliana, Bernadety",
+        "AT": "Bernadette"
+      },
+      {
+        "den": "0417",
+        "SK": "Rudolf",
+        "SKd": "Rudolf, Ralf, Rolf, Rudolfa, Rudolfína,Rudko",
+        "CZ": "Rudolf",
+        "HU": "Rudolf",
+        "PL": "Roberta, Rudolfa",
+        "AT": "Eberhard"
+      },
+      {
+        "den": "0418",
+        "SK": "Valér",
+        "SKd": "Valér, Apolón, Erich, Verner, Ilma",
+        "CZ": "Valérie",
+        "HU": "Andrea, Ilma",
+        "PL": "Alicji, Boguslawy",
+        "AT": "Aja Apollonius"
+      },
+      {
+        "den": "0419",
+        "SK": "Jela",
+        "SKd": "Jela, Krescenc, Krescencia",
+        "CZ": "Rostislav",
+        "HU": "Emma",
+        "PL": "Adolfa, Tymona",
+        "AT": "Leo IX., Gerold"
+      },
+      {
+        "den": "0420",
+        "SK": "Marcel",
+        "SKd": "Marcel, Hvezdoň",
+        "CZ": "Marcela",
+        "HU": "Tivadar",
+        "PL": "Czeslawa, Agnieszki",
+        "AT": "Simon v. T."
+      },
+      {
+        "den": "0421",
+        "SK": "Ervín",
+        "SKd": "Ervín, Abelard, Adelard, Anzelm, Žitoslav, Anzelma, Ervína, Saskia, Žitoslava, Elissa",
+        "CZ": "Alexandra",
+        "HU": "Konrád",
+        "PL": "Bartosza, Feliksa",
+        "AT": "Konrad v. P., Anselm"
+      },
+      {
+        "den": "0422",
+        "SK": "Slavomír",
+        "SKd": "Slavomír, Slávo, Tvrdomír, Jelena, Noema",
+        "CZ": "Evžénie",
+        "HU": "Csilla, Noémi",
+        "PL": "Kai, Lukasza",
+        "AT": "Wolfhelm"
+      },
+      {
+        "den": "0423",
+        "SK": "Vojtech",
+        "SKd": "Vojtech, Adalbert, Roger, Adalberta, Vojtecha, Vojteška",
+        "CZ": "Vojtěch",
+        "HU": "Béla",
+        "PL": "Jerzego, Wojciecha, Idziego",
+        "AT": "Georg, Gerhard"
+      },
+      {
+        "den": "0424",
+        "SK": "Juraj",
+        "SKd": "Juraj, Fidél, Gaston, Georg, Helmut, Jorik, Jürgen, Deora, Fidélia, Jorga, Jorika, Juraja",
+        "CZ": "Jiří",
+        "HU": "György",
+        "PL": "Aleksego, Horacego",
+        "AT": "Wilfried"
+      },
+      {
+        "den": "0425",
+        "SK": "Marek",
+        "SKd": "Marek, Izmael, Marko, Markus, Marco",
+        "CZ": "Marek",
+        "HU": "Márk",
+        "PL": "Marka, Jaroslawa",
+        "AT": "Markus, Erwin, Ev."
+      },
+      {
+        "den": "0426",
+        "SK": "Jaroslava",
+        "SKd": "Jaroslava",
+        "CZ": "Oto",
+        "HU": "Ervin",
+        "PL": "Marzeny, Marii, Klaudiusza",
+        "AT": "Trudpert"
+      },
+      {
+        "den": "0427",
+        "SK": "Jaroslav",
+        "SKd": "Jaroslav, Aristid, Tulius, Aristída, Tulia",
+        "CZ": "Jaroslav",
+        "HU": "Zita",
+        "PL": "Ludwika, Piotra",
+        "AT": "Petrus Can."
+      },
+      {
+        "den": "0428",
+        "SK": "Jarmila",
+        "SKd": "Jarmila, Prudencius, Prudencia",
+        "CZ": "Vlastislav",
+        "HU": "Valéria",
+        "PL": "Pawla, Walerii",
+        "AT": "Ludwig v. M."
+      },
+      {
+        "den": "0429",
+        "SK": "Lea",
+        "SKd": "Lea, Timon",
+        "CZ": "Robert",
+        "HU": "Péter",
+        "PL": "Rity, Donaty",
+        "AT": "Roswitha"
+      },
+      {
+        "den": "0430",
+        "SK": "Anastázia",
+        "SKd": "Anastázia, Anastáz, Blahomil, Asia, Blahomila, Nasťa, Nastasia",
+        "CZ": "Blahoslav",
+        "HU": "Katalin, Kitti",
+        "PL": "Mariana, Katarzyny",
+        "AT": "Hildegard"
+      },
+      {
+        "den": "0501",
+        "SKd": "-, Amarila, Pamela",
+        "SKsviatky": "Sviatok práce",
+        "CZsviatky": "Svátek práce",
+        "HU": "Fülöp, Jakab",
+        "PL": "Jozefa, Jeremiasza"
+      },
+      {
+        "den": "0502",
+        "SK": "Žigmund",
+        "SKd": "Žigmund, Atanáz, Atanázia, Aténa",
+        "CZ": "Zigmund",
+        "HU": "Zsigmond",
+        "PL": "Zygmunta, Atanazego",
+        "AT": "Athanasius, Boris"
+      },
+      {
+        "den": "0503",
+        "SK": "Galina",
+        "SKd": "Galina,Timea, Horác, Desana, Halina",
+        "CZ": "Alexej",
+        "HU": "Timea, Irma",
+        "PL": "Marii, Marioli",
+        "AT": "Philipp, Jakob"
+      },
+      {
+        "den": "0504",
+        "SK": "Florián",
+        "SKd": "Florián, Flór, Aglája, Floriána, Florína, Pelagia",
+        "SKdni": "Výročie úmrtia M.R. Štefánika",
+        "CZ": "Květoslav",
+        "HU": "Mónika, Flórián",
+        "PL": "Moniki, Floriana",
+        "AT": "Florian"
+      },
+      {
+        "den": "0505",
+        "SK": "Lesia, Lesana",
+        "SKd": "Lesana, Gothard, Pius, Lesia, Pia, Toska",
+        "CZ": "Klaudie",
+        "HU": "Györgyi, Adrián",
+        "PL": "Ireny, Waldemara",
+        "AT": "Gotthard"
+      },
+      {
+        "den": "0506",
+        "SK": "Hermína",
+        "SKd": "Hermína, Ovídius, Radivoj, Tankréd, Elfrída, Frída, Herina, Mineta",
+        "CZ": "Radoslav",
+        "HU": "Ivett, Frida",
+        "PL": "Filipa, Judyty",
+        "AT": "Valerian"
+      },
+      {
+        "den": "0507",
+        "SK": "Monika",
+        "SKd": "Monika, Napoleon, Stanimír, Mona",
+        "CZ": "Stanislav",
+        "HU": "Gizella",
+        "PL": "Benedykta, Gizeli",
+        "AT": "Gisela"
+      },
+      {
+        "den": "0508",
+        "SK": "Ingrida",
+        "SKd": "Ingrida, Ina, Inga",
+        "SKsviatky": "Deň víťazstva nad fašizmom",
+        "CZsviatky": "Den osvobození od fašismu - 1945",
+        "HU": "Mihály",
+        "PL": "Ilzy, Stanislawa, Wiktora",
+        "AT": "Ida, Désiré"
+      },
+      {
+        "den": "0509",
+        "SK": "Roland",
+        "SKd": "Roland, Rolanda, Christopher",
+        "CZ": "Ctibor",
+        "HU": "Gergely",
+        "PL": "Bozydara, Grzegorza",
+        "AT": "Volkmar"
+      },
+      {
+        "den": "0510",
+        "SK": "Viktória",
+        "SKd": "Viktória, Armín, Armína, Beatrica",
+        "CZ": "Blažena",
+        "HU": "Ármin, Pálma",
+        "PL": "Izydora, Antoniny",
+        "AT": "Antonin"
+      },
+      {
+        "den": "0511",
+        "SK": "Blažena",
+        "SKd": "Blažena, Miranda, Svatava",
+        "CZ": "Svatava",
+        "HU": "Ferenc",
+        "PL": "Igi,, Ignacego",
+        "AT": "Gangolf"
+      },
+      {
+        "den": "0512",
+        "SK": "Pankrác",
+        "SKd": "Pankrác, Achiles",
+        "CZ": "Pankrác",
+        "HU": "Pongrác",
+        "PL": "Joanny, Achillesa",
+        "AT": "Pankratius"
+      },
+      {
+        "den": "0513",
+        "SK": "Servác",
+        "SKd": "Servác, Chraniboj, Chranibor, Chranislav, Servián, Chranislava, Imelda, Konzuela",
+        "CZ": "Servác",
+        "HU": "Szervác, Imola",
+        "PL": "Glori, Gerwazego",
+        "AT": "Servatius"
+      },
+      {
+        "den": "0514",
+        "SK": "Bonifác",
+        "SKd": "Bonifác",
+        "CZ": "Bonifác",
+        "HU": "Bonifác",
+        "PL": "Bonifacego, Dobieslawa",
+        "AT": "Bonifatius"
+      },
+      {
+        "den": "0515",
+        "SK": "Žofia, Sofia",
+        "SKd": "Žofia, Brenda, Raisa, Sofia, Zosia, Sophia, Sophie",
+        "CZ": "Žofie",
+        "HU": "Zsófia, Szonja",
+        "PL": "Zofii, Nadziei",
+        "AT": "Rupert, Sophie"
+      },
+      {
+        "den": "0516",
+        "SK": "Svetozár",
+        "SKd": "Svetozár, Peregrín, Peregrína",
+        "CZ": "Přemysl",
+        "HU": "Mózes, Botond",
+        "PL": "Andrzeja, Jedrzeja",
+        "AT": "Johannes"
+      },
+      {
+        "den": "0517",
+        "SK": "Gizela",
+        "SKd": "Gizela, Andronik, Ditmar, Paskal, Andronika, Paskália, Aneta",
+        "CZ": "Aneta",
+        "HU": "Paszkál",
+        "PL": "Brunona, Paschalisa",
+        "AT": "Walter, Pascal"
+      },
+      {
+        "den": "0518",
+        "SK": "Viola",
+        "SKd": "Viola",
+        "CZ": "Nataša",
+        "HU": "Alexandra, Erik",
+        "PL": "Eryka, Feliksa",
+        "AT": "Erich"
+      },
+      {
+        "den": "0519",
+        "SK": "Gertrúda",
+        "SKd": "Gertrúda, Gerda",
+        "CZ": "Ivo",
+        "HU": "Ivó, Milán",
+        "PL": "Piotra, Iwa",
+        "AT": "Cölestin V., Ivo"
+      },
+      {
+        "den": "0520",
+        "SK": "Bernard",
+        "SKd": "Bernard, Bernardín, Hviezdoslav, Bernadeta, Bernarda, Bernardína, Hviezdoslava",
+        "CZ": "Zbyšek",
+        "HU": "Bernát, Felicia",
+        "PL": "Aleksandra, Bazylego",
+        "AT": "Elfriede"
+      },
+      {
+        "den": "0521",
+        "SK": "Zina",
+        "SKd": "Zina, Dobromír, Hostimil, Hostirad, Hostislav, Hostisvit, Teobald, Dobromíra, Hostimila, Hostislava",
+        "CZ": "Monika",
+        "HU": "Konstantin",
+        "PL": "Jana, Wiktora",
+        "AT": "Hermann, Josef"
+      },
+      {
+        "den": "0522",
+        "SK": "Júlia, Juliana",
+        "SKd": "Júlia, Juliana, Liana, Rita",
+        "CZ": "Emil",
+        "HU": "Júlia, Rita",
+        "PL": "Heleny, Wieslawy",
+        "AT": "Rita, Julia"
+      },
+      {
+        "den": "0523",
+        "SK": "Želmíra",
+        "SKd": "Želmíra, Želmír, Želimír",
+        "CZ": "Vladimír",
+        "HU": "Dezső",
+        "PL": "Emilii, Iwony",
+        "AT": "Renate"
+      },
+      {
+        "den": "0524",
+        "SK": "Ela",
+        "SKd": "Ela",
+        "CZ": "Jana, Vanesa",
+        "HU": "Eszter, Eliza",
+        "PL": "Joanny, Zuzanny",
+        "AT": "Vinzenz, Dagmar"
+      },
+      {
+        "den": "0525",
+        "SK": "Urban",
+        "SKd": "Urban, Vanesa",
+        "CZ": "Viola",
+        "HU": "Orbán",
+        "PL": "Boryslawa, Grzegorza",
+        "AT": "Gregor VII."
+      },
+      {
+        "den": "0526",
+        "SK": "Dušan",
+        "SKd": "Dušan",
+        "CZ": "Filip",
+        "HU": "Fülöp, Evelin",
+        "PL": "Filipa, Pauliny",
+        "AT": "Philip N."
+      },
+      {
+        "den": "0527",
+        "SK": "Iveta",
+        "SKd": "Iveta, Vadim, Valdemar, Valdemara",
+        "CZ": "Valdemar",
+        "HU": "Hella",
+        "PL": "Augustyna, Juliana",
+        "AT": "Augustin v. C."
+      },
+      {
+        "den": "0528",
+        "SK": "Viliam",
+        "SKd": "Viliam, Vilhelm, Elektra, Elma, Vilhelmína, William",
+        "CZ": "Vilém",
+        "HU": "Emil, Csanád",
+        "PL": "Jaromira, Justa",
+        "AT": "Wilhelm"
+      },
+      {
+        "den": "0529",
+        "SK": "Vilma",
+        "SKd": "Vilma, Elmar, Maxim, Maxima",
+        "CZ": "Maxmilián",
+        "HU": "Magdolna",
+        "PL": "Magdaleny, Bogumily",
+        "AT": "Maximin"
+      },
+      {
+        "den": "0530",
+        "SK": "Ferdinand",
+        "SKd": "Ferdinand, Neander, Ferdinanda",
+        "CZ": "Ferdinand",
+        "HU": "Janka, Zsanett",
+        "PL": "Karola, Ferdynanda",
+        "AT": "Ferdinand"
+      },
+      {
+        "den": "0531",
+        "SK": "Petrana, Petronela",
+        "SKd": "Petrana, Petronela, Petrónius, Blahoslav, Nela, Petrónia, Nelly",
+        "CZ": "Kamila",
+        "HU": "Angéla, Petronella",
+        "PL": "Anieli, Petroneli",
+        "AT": "Petronilla, Aldo"
+      },
+      {
+        "den": "0601",
+        "SK": "Žaneta",
+        "SKd": "Žaneta",
+        "CZ": "Laura",
+        "HU": "Tünde",
+        "PL": "Jakuba, Justyna",
+        "AT": "Konrad, Silke"
+      },
+      {
+        "den": "0602",
+        "SK": "Xénia, Oxana",
+        "SKd": "Oxana, Xénia,Karmen, Karmena, Erazim, Erazmus, Jaromil, Vlastimila",
+        "CZ": "Jarmil",
+        "HU": "Kármen, Anita",
+        "PL": "Erazma, Marianny",
+        "AT": "Armin, Eugen"
+      },
+      {
+        "den": "0603",
+        "SK": "Karolína",
+        "SKd": "Karolína, Kevin, Lino, Linus, Palmíro, Kaja, Klotilda, Lina, Lineta, Palmíra",
+        "CZ": "Tamara",
+        "HU": "Klotild",
+        "PL": "Leszka, Tamary",
+        "AT": "Karl L., Silvia"
+      },
+      {
+        "den": "0604",
+        "SK": "Lenka",
+        "SKd": "Lenka, Lena",
+        "CZ": "Dalibor",
+        "HU": "Bulcsú",
+        "PL": "Franciszka, Karola",
+        "AT": "Franz C., Klothilde"
+      },
+      {
+        "den": "0605",
+        "SK": "Laura",
+        "SKd": "Laura, Dorotej, Fatima, Laurencia, Loreta, Loriána",
+        "CZ": "Dobroslav",
+        "HU": "Fatime",
+        "PL": "Bonifacego, Waltera",
+        "AT": "Bonifaz"
+      },
+      {
+        "den": "0606",
+        "SK": "Norbert",
+        "SKd": "Norbert, Norman, Romulus, Adolfína, Norberta, Perzida",
+        "CZ": "Norbert",
+        "HU": "Norbert, Cintia",
+        "PL": "Norberta, Laurentego",
+        "AT": "Norbert"
+      },
+      {
+        "den": "0607",
+        "SK": "Róbert",
+        "SKd": "Róbert, Borislav, Robin, Teodot, Dalma, Oriána, Róberta, Robina, Silver",
+        "SKdni": "Výročie Memoranda národa slovenského",
+        "CZ": "Iveta, Slavoj",
+        "HU": "Róbert",
+        "PL": "Roberta, Wieslawa",
+        "AT": "Robert"
+      },
+      {
+        "den": "0608",
+        "SK": "Medard",
+        "SKd": "Medard",
+        "CZ": "Medard",
+        "HU": "Medárd",
+        "PL": "Maksyma, Medarda",
+        "AT": "Medardus, Ilga"
+      },
+      {
+        "den": "0609",
+        "SK": "Stanislava",
+        "SKd": "Stanislava, Felicián, Prímus, Vojeslav, Berenika, Vojeslava",
+        "CZ": "Stanislava",
+        "HU": "Félix",
+        "PL": "Anny, Felicjana",
+        "AT": "Ephräm, Gratia"
+      },
+      {
+        "den": "0610",
+        "SK": "Margaréta",
+        "SKd": "Margaréta, Gréta",
+        "CZ": "Gita",
+        "HU": "Margit, Gréta",
+        "PL": "Bogumila, Malgorzaty",
+        "AT": "Heinrich v. B., Diana"
+      },
+      {
+        "den": "0611",
+        "SK": "Dobroslava",
+        "SKd": "Dobroslava, Barnabáš, Dobrava, Dobrota, Dobrotína, Flóra, Pavoslava",
+        "CZ": "Bruno",
+        "HU": "Barnabás",
+        "PL": "Barnaby, Radomila",
+        "AT": "Barnabas, Alice"
+      },
+      {
+        "den": "0612",
+        "SK": "Zlatko",
+        "SKd": "Zlatko, Svätoslav, Svetislav, Svetoslav, Zlatan, Zlatomír, Zlatoň, Zlatoš, Svätoslava, Svetislava, Svetoslava, Zlatana, Zlatomíra",
+        "CZ": "Antonie",
+        "HU": "Villő",
+        "PL": "Janiny, Jana",
+        "AT": "Leo III., Johann v. S. F."
+      },
+      {
+        "den": "0613",
+        "SK": "Anton",
+        "SKd": "Anton, Genadij, Tobiáš, Tobias",
+        "CZ": "Antonin",
+        "HU": "Antal, Anett",
+        "PL": "Lucjana, Antoniego",
+        "AT": "Antonius v. P."
+      },
+      {
+        "den": "0614",
+        "SK": "Vasil",
+        "SKd": "Vasil, Bazil, Elizej, Kvintilián, Kvintín, Kvintus, Herta, Kvinta, Kvintiliána",
+        "CZ": "Roland",
+        "HU": "Vazul",
+        "PL": "Bazylego, Elizy",
+        "AT": "Burkhard, Gottschalk"
+      },
+      {
+        "den": "0615",
+        "SK": "Vít",
+        "SKd": "Vít, Jolana",
+        "CZ": "Vít",
+        "HU": "Jolán, Vid",
+        "PL": "Wita, Jolanty",
+        "AT": "Vitus, Veit"
+      },
+      {
+        "den": "0616",
+        "SK": "Blanka, Bianka",
+        "SKd": "Bianka, Blanka, Benon, Božetech, Alina, Božetecha",
+        "CZ": "Zbyněk",
+        "HU": "Jusztin",
+        "PL": "Aliny, Benona",
+        "AT": "Benno v. M."
+      },
+      {
+        "den": "0617",
+        "SK": "Adolf",
+        "SKd": "Adolf, Adolfína",
+        "CZ": "Adolf",
+        "HU": "Laura, Alida",
+        "PL": "Alberta, Ignacego",
+        "AT": "Rainer, Adolf v. M."
+      },
+      {
+        "den": "0618",
+        "SK": "Vratislav",
+        "SKd": "Vratislav, Leontín, Milovan, Milovín, Sedrik, Leontína, Milovana",
+        "CZ": "Milan",
+        "HU": "Arnold, Levente",
+        "PL": "Marka, Elzbiety",
+        "AT": "Markus, Marcellianus"
+      },
+      {
+        "den": "0619",
+        "SK": "Alfréd",
+        "SKd": "Alfréd, Leonid, Leonídas, Leoš, Ruslan, Alfréda",
+        "CZ": "Leoš",
+        "HU": "Gyárfás",
+        "PL": "Gerwazego, Protazego",
+        "AT": "Juliana v. F."
+      },
+      {
+        "den": "0620",
+        "SK": "Valéria",
+        "SKd": "Valéria, Florencián, Florentín, Silver, Florencia, Florentína",
+        "CZ": "Květa",
+        "HU": "Rafael",
+        "PL": "Diny, Bogny",
+        "AT": "Adalbert, Florentina"
+      },
+      {
+        "den": "0621",
+        "SK": "Alojz",
+        "SKd": "Alojz, Elvis, Lejla",
+        "CZ": "Alois",
+        "HU": "Alajos, Leila",
+        "PL": "Alicji, Alojzego",
+        "AT": "Aloisius v. G."
+      },
+      {
+        "den": "0622",
+        "SK": "Paulína",
+        "SKd": "Paulína, Achác, Eberhard, Paulín, Paula, Rozvita, Zaira",
+        "CZ": "Pavla",
+        "HU": "Paulina",
+        "PL": "Pauliny, Tomasza",
+        "AT": "Thomas M."
+      },
+      {
+        "den": "0623",
+        "SK": "Sidónia",
+        "SKd": "Sidónia, Sidón",
+        "CZ": "Zdeňka",
+        "HU": "Zoltán",
+        "PL": "Wandy, Zenona",
+        "AT": "Edeltraud"
+      },
+      {
+        "den": "0624",
+        "SK": "Ján",
+        "SKd": "Ján, Janis, Jaško, Jens, Johan, Jovan, Nino, Sean",
+        "CZ": "Jan",
+        "HU": "Iván",
+        "PL": "Jana, Danuty",
+        "AT": "Johannes der Täufer"
+      },
+      {
+        "den": "0625",
+        "SK": "Olívia, Tadeáš",
+        "SKd": "Tadeáš, Olívia, Olívius, Prosper, Febrónia, Oliva",
+        "CZ": "Ivan",
+        "HU": "Vilmos",
+        "PL": "Lucji, Wilhelma",
+        "AT": "Dorothea, Eleonore"
+      },
+      {
+        "den": "0626",
+        "SK": "Adriána",
+        "SKd": "Adriána, Stojan, Adriena, Ria, Riana, Stojana",
+        "CZ": "Adriana",
+        "HU": "János, Pál",
+        "PL": "Jana, Pawla",
+        "AT": "Johann, Paul"
+      },
+      {
+        "den": "0627",
+        "SK": "Ladislav, Ladislava",
+        "SKd": "Ladislav, Ladislava, Samson, Sulamita",
+        "CZ": "Ladislav",
+        "HU": "László",
+        "PL": "Maryli, Wladyslawa",
+        "AT": "Cyrill v. A., Harald"
+      },
+      {
+        "den": "0628",
+        "SK": "Beáta",
+        "SKd": "Beáta, Beátus, Slavoj, Bea",
+        "CZ": "Lubomir",
+        "HU": "Levente, Irén",
+        "PL": "Leona, Ireneusza",
+        "AT": "Irenäus, Diethild"
+      },
+      {
+        "den": "0629",
+        "SK": "Peter, Pavol, Petra",
+        "SKd": "Peter, Pavol, Petra, Pavel, Pavla, Petula",
+        "CZ": "Petr, Pavel",
+        "HU": "Péter, Pál",
+        "PL": "Piotra, Pawla",
+        "AT": "Peter, Paul Judith"
+      },
+      {
+        "den": "0630",
+        "SK": "Melánia",
+        "SKd": "Melánia, Vlastibor, Vlastimír, Šárka, Vlastimíra",
+        "CZ": "Šárka",
+        "HU": "Pál",
+        "PL": "Emilii, Lucycy",
+        "AT": "Otto, Ernst v. P."
+      },
+      {
+        "den": "0701",
+        "SK": "Diana",
+        "SKd": "Diana, Dean, Dejan, Dina, Zian, Dajana, Deana, Kalina, Tabita",
+        "CZ": "Jaroslava",
+        "HU": "Tihamér, Annamária",
+        "PL": "Haliny, Mariana",
+        "AT": "Theobald"
+      },
+      {
+        "den": "0702",
+        "SK": "Berta",
+        "SKd": "Berta, Bertín, Bertína",
+        "CZ": "Patricie",
+        "HU": "Ottó",
+        "PL": "Jagody, Urbana",
+        "AT": "Mariä, Heimsuchung"
+      },
+      {
+        "den": "0703",
+        "SK": "Miloslav",
+        "SKd": "Miloslav, Irenej, Miliduch, Milomír, Milorad, Radimír, Rodimír, Radimíra",
+        "CZ": "Radomir",
+        "HU": "Kornél, Soma",
+        "PL": "Jacka, Anatola",
+        "AT": "Thomas, Raimund"
+      },
+      {
+        "den": "0704",
+        "SK": "Prokop",
+        "SKd": "Prokop, Procius, Prokopa",
+        "CZ": "Prokop",
+        "HU": "Ulrik",
+        "PL": "Malwiny, Odona",
+        "AT": "Elisabeth v. P."
+      },
+      {
+        "den": "0705",
+        "SK": "Cyril, Metod",
+        "SKd": "Cyril, Metod, Cyrus, Cyrila",
+        "SKsviatky": "Sviatok svätého Cyrila a Metoda",
+        "SKdni": "Deň zahraničných Slovákov",
+        "CZ": "Cyril, Metoděj",
+        "CZsviatky": "Den slovanských věrozvestú Cyrila a Metodeje",
+        "HU": "Emese, Sarolta",
+        "PL": "Marii, Antoniego",
+        "AT": "Anton M. Zacc."
+      },
+      {
+        "den": "0706",
+        "SK": "Patrik, Patrícia",
+        "SKd": "Patrik, Patrícia, Patrokles",
+        "CZsviatky": "Den upálení mistra Jana Husa - 1415",
+        "HU": "Csaba",
+        "PL": "Dominiki, Gotarda",
+        "AT": "Maria Goretti"
+      },
+      {
+        "den": "0707",
+        "SK": "Oliver",
+        "SKd": "Oliver, Donald, Kastor, Veleslav, Velislav, Valibals, Veleslava, Velislava",
+        "CZ": "Bohuslava",
+        "HU": "Apollónia",
+        "PL": "Benedykta, Cyryla",
+        "AT": "Willibald"
+      },
+      {
+        "den": "0708",
+        "SK": "Ivan",
+        "SKd": "Ivan, Ivo, Kilián, Perikles",
+        "CZ": "Nora",
+        "HU": "Ellák",
+        "PL": "Adryiany, Eugeniusza",
+        "AT": "Eugen III., Edgar K."
+      },
+      {
+        "den": "0709",
+        "SK": "Lujza",
+        "SKd": "Lujza, Lukrécius, Lizelota, Lukrécia",
+        "CZ": "Drahoslava",
+        "HU": "Lukrécia",
+        "PL": "Lukrecji, Weroniki",
+        "AT": "Gottfried, Veronika"
+      },
+      {
+        "den": "0710",
+        "SK": "Amália",
+        "SKd": "Amália, Amína, Lada",
+        "CZ": "Libuše, Amálie",
+        "HU": "Amália",
+        "PL": "Olafa, Witalisa",
+        "AT": "Knud, Engelbert"
+      },
+      {
+        "den": "0711",
+        "SK": "Milota",
+        "SKd": "Milota, Milutín",
+        "CZ": "Olga",
+        "HU": "Nóra, Lili",
+        "PL": "Olgi, Kaliny",
+        "AT": "Benedikt v. N., Oliver"
+      },
+      {
+        "den": "0712",
+        "SK": "Nina",
+        "SKd": "Nina, Fortunát, Fortunáta",
+        "CZ": "Bořek",
+        "HU": "Izabella, Dalma",
+        "PL": "Jana, Brunona",
+        "AT": "Nabor, Felix"
+      },
+      {
+        "den": "0713",
+        "SK": "Margita",
+        "SKd": "Margita, Arne, Borivoj, Merkéta,",
+        "CZ": "Markéta",
+        "HU": "Jenő",
+        "PL": "Ernesta, Malgorzaty",
+        "AT": "Heinrich II."
+      },
+      {
+        "den": "0714",
+        "SK": "Kamil",
+        "SKd": "Kamil",
+        "CZ": "Karolína",
+        "HU": "Ors, Stella",
+        "PL": "Bonawentury, Stelii",
+        "AT": "Roland"
+      },
+      {
+        "den": "0715",
+        "SK": "Henrich",
+        "SKd": "Henrich, Egon, Enrik, Enriko, Henrik, Henrika, Lota, Šarlota",
+        "CZ": "Jindřich",
+        "HU": "Henrik, Roland",
+        "PL": "Dawida, Henryka",
+        "AT": "Egon, Balduin"
+      },
+      {
+        "den": "0716",
+        "SK": "Drahomír",
+        "SKd": "Drahomír, Karmela, Rút, Rúta",
+        "CZ": "Luboš",
+        "HU": "Valter",
+        "PL": "Eustachego, Marii",
+        "AT": "Maria v. B. K., Carmen"
+      },
+      {
+        "den": "0717",
+        "SK": "Bohuslav",
+        "SKd": "Bohuslav, Božislav, Svorad",
+        "SKdni": "Výročie Deklarácie o zvrchovanosti Slovenskej republiky",
+        "CZ": "Martina",
+        "HU": "Endre, Elek",
+        "PL": "Anety, Bogdana",
+        "AT": "Alexius"
+      },
+      {
+        "den": "0718",
+        "SK": "Kamila",
+        "SKd": "Kamila, Rowa",
+        "CZ": "Drahomira",
+        "HU": "Frigyes",
+        "PL": "Emila, Erwina",
+        "AT": "Friedrich, Arnold"
+      },
+      {
+        "den": "0719",
+        "SK": "Dušana",
+        "SKd": "Dušana",
+        "CZ": "Čeněk",
+        "HU": "Emilia",
+        "PL": "Wincentego, Wodzislawa",
+        "AT": "Justa, Bernulf"
+      },
+      {
+        "den": "0720",
+        "SK": "Iľja, Eliáš",
+        "SKd": "Eliáš, Iľja, Ilia, Eliána, Iliana, Elisa",
+        "CZ": "Ilja",
+        "HU": "Illés",
+        "PL": "Czeslawa, Fryderyka",
+        "AT": "Margareta"
+      },
+      {
+        "den": "0721",
+        "SK": "Daniel",
+        "SKd": "Daniel, Dan, Dalina",
+        "CZ": "Vítězslav",
+        "HU": "Dániel, Daniella",
+        "PL": "Daniela, Dalidy",
+        "AT": "Daniel"
+      },
+      {
+        "den": "0722",
+        "SK": "Magdaléna",
+        "SKd": "Magdaléna, Magda, Mahuliena, Majda",
+        "CZ": "Magdaléna",
+        "HU": "Magdolna",
+        "PL": "Marii, Magdaleny",
+        "AT": "Maria Magdalena"
+      },
+      {
+        "den": "0723",
+        "SK": "Oľga",
+        "SKd": "Oľga, Apolinár, Libérius, Libor, Liborius, Apolinára, Libora, Lilien",
+        "CZ": "Libor",
+        "HU": "Lenke",
+        "PL": "Bogny, Apolinarego",
+        "AT": "Brigitta"
+      },
+      {
+        "den": "0724",
+        "SK": "Vladimír",
+        "SKd": "Vladimír, Kinga",
+        "CZ": "Kristýna",
+        "HU": "Kinga, Kincső",
+        "PL": "Kingi, Krystyny",
+        "AT": "Christophorus"
+      },
+      {
+        "den": "0725",
+        "SK": "Jakub",
+        "SKd": "Jakub, Žakelína",
+        "CZ": "Jakub",
+        "HU": "Kristóf, Jakab",
+        "PL": "Walentyny, Krzysztofa",
+        "AT": "Jakob, Thea, Ap."
+      },
+      {
+        "den": "0726",
+        "SK": "Anna, Hana",
+        "SKd": "Anna, Hana, Aneta, Anica, Anita, Annamária, Naneta, Joachim",
+        "CZ": "Anna",
+        "HU": "Anna, Anikó",
+        "PL": "Anny, Miroslawy",
+        "AT": "Anna, Joachim"
+      },
+      {
+        "den": "0727",
+        "SK": "Božena",
+        "SKd": "Božena, Gorazd, Pantaleon",
+        "CZ": "Věroslav",
+        "HU": "Olga, Liliána",
+        "PL": "Celestyna, Lilii",
+        "AT": "Rudolf A."
+      },
+      {
+        "den": "0728",
+        "SK": "Krištof",
+        "SKd": "Krištof, Inocent, Svätomír, Svätoš, Inocencia, Nausika, Svätomíra",
+        "CZ": "Viktor",
+        "HU": "Szabolcs",
+        "PL": "Aidy, Innocentego",
+        "AT": "Samuel, Viktor"
+      },
+      {
+        "den": "0729",
+        "SK": "Marta",
+        "SKd": "Marta, Olaf, Serafín, Serafa, Serafína",
+        "CZ": "Marta",
+        "HU": "Márta, Flóra",
+        "PL": "Olafa, Marty",
+        "AT": "Martha, Lucilla"
+      },
+      {
+        "den": "0730",
+        "SK": "Libuša",
+        "SKd": "Libuša, Abdon, Ingemar, Ingeborga, Ľubuša, Rowena",
+        "CZ": "Bořivoj",
+        "HU": "Judit, Xénia",
+        "PL": "Julity, Piotra",
+        "AT": "Ingeborg"
+      },
+      {
+        "den": "0731",
+        "SK": "Ignác",
+        "SKd": "Ignác, Ignát, Vatroslav, Ignácia",
+        "CZ": "Ignác",
+        "HU": "Oszkár",
+        "PL": "Ignacego, Lubomira",
+        "AT": "Ignatius v. L."
+      },
+      {
+        "den": "0801",
+        "SK": "Božidara",
+        "SKd": "Božidara, Božidar, Ľudomír, Božica, Kleopatra, Ľudomíra, Penelopa",
+        "CZ": "Oskar",
+        "HU": "Boglárka",
+        "PL": "Alfonsa, Nadii",
+        "AT": "Alfons v. L."
+      },
+      {
+        "den": "0802",
+        "SK": "Gustáv",
+        "SKd": "Gustáv, Gustáva",
+        "CZ": "Gustav",
+        "HU": "Lehel",
+        "PL": "Kariny, Gustawa",
+        "AT": "Eusebius v. V., Stefan"
+      },
+      {
+        "den": "0803",
+        "SK": "Jerguš",
+        "SKd": "Jerguš, Nikodém, Nikodéma",
+        "CZ": "Miluše",
+        "HU": "Hermina",
+        "PL": "Lidii, augusta",
+        "AT": "Lydia, Benno v. E."
+      },
+      {
+        "den": "0804",
+        "SK": "Dominika, Dominik",
+        "SKd": "Dominik, Dominika, Krasoslav, Rainer, Krasoslava, Donna",
+        "SKdni": "Deň Matice slovenskej",
+        "CZ": "Dominik",
+        "HU": "Domonkos, Dominika",
+        "PL": "Dominika, Jana",
+        "AT": "Johannes M. V., Rainer"
+      },
+      {
+        "den": "0805",
+        "SK": "Hortenzia",
+        "SKd": "Hortenzia, Hortenz, Milivoj, Osvald, Snežana",
+        "CZ": "Kristián",
+        "HU": "Krisztina",
+        "PL": "Marii, Oswalda",
+        "AT": "Oswald, Dominika"
+      },
+      {
+        "den": "0806",
+        "SK": "Jozefína",
+        "SKd": "Jozefína, Nehoslav, Jozefa",
+        "CZ": "Oldriška",
+        "HU": "Bertabettina",
+        "PL": "Slawy, Jakuba",
+        "AT": "Christi Verklärung"
+      },
+      {
+        "den": "0807",
+        "SK": "Štefánia",
+        "SKd": "Štefánia, Kajetán, Afra, Afrodita, Kajetána, Štefana",
+        "CZ": "Lada",
+        "HU": "Ibolya",
+        "PL": "Klaudii, Kajetana",
+        "AT": "Albert"
+      },
+      {
+        "den": "0808",
+        "SK": "Oskar",
+        "SKd": "Oskar, Donát, Hartvig, Virgín, Donáta, Virgínia",
+        "CZ": "Soběslav",
+        "HU": "László",
+        "PL": "Cypriana, Dominika",
+        "AT": "Dominikus, Gustav"
+      },
+      {
+        "den": "0809",
+        "SK": "Ľubomíra",
+        "SKd": "Ľubomíra, Rastic",
+        "CZ": "Roman",
+        "HU": "Emőd",
+        "PL": "Romana, Ryszarda",
+        "AT": "Edith"
+      },
+      {
+        "den": "0810",
+        "SK": "Vavrinec",
+        "SKd": "Vavrinec, Lars, Laurenc, Laurus, Lorenc, Vavro",
+        "CZ": "Vavřinec",
+        "HU": "Lőrinc",
+        "PL": "Bogdana, Borysa",
+        "AT": "Laurentius, Astrid"
+      },
+      {
+        "den": "0811",
+        "SK": "Zuzana",
+        "SKd": "Zuzana, Trojan, Dulcia, Dulcinela, Dulcínia",
+        "CZ": "Zuzana",
+        "HU": "Zsuzsanna, Tiborc",
+        "PL": "Klary, Lidii",
+        "AT": "Klara, Susanna"
+      },
+      {
+        "den": "0812",
+        "SK": "Darina",
+        "SKd": "Darina, Dárius, Dária",
+        "CZ": "Klára",
+        "HU": "Klára",
+        "PL": "Lecha, Euzebii",
+        "AT": "Hilaria"
+      },
+      {
+        "den": "0813",
+        "SK": "Ľubomír",
+        "SKd": "Ľubomír, Hypolit, Kasián, Kasius, Belinda",
+        "CZ": "Alena",
+        "HU": "Ipoly",
+        "PL": "Diany, Hipolita",
+        "AT": "Gertrud v. A., Marco"
+      },
+      {
+        "den": "0814",
+        "SK": "Mojmír",
+        "SKd": "Mojmír, Eusébius, Mojtech, Eusébia",
+        "CZ": "Alan",
+        "HU": "Marcell",
+        "PL": "Alfreda, Euzebiusza",
+        "AT": "Maximilian"
+      },
+      {
+        "den": "0815",
+        "SK": "Marcela",
+        "SKd": "Marcela",
+        "CZ": "Hana",
+        "HU": "Mária",
+        "PL": "Marii, Napoleona",
+        "AT": "Mariä Himmelfahrt"
+      },
+      {
+        "den": "0816",
+        "SK": "Leonard",
+        "SKd": "Leonard, Jáchim, Joachim, Linhart, Rochus, Leonarda",
+        "CZ": "Jáchym",
+        "HU": "Ábrahám",
+        "PL": "Stefana, Rocha",
+        "AT": "Stefan v. U., Theodor"
+      },
+      {
+        "den": "0817",
+        "SK": "Milica",
+        "SKd": "Milica, Bertram, Bertrand, Hyacint, Libert, Miron, Hyacinta",
+        "CZ": "Petra",
+        "HU": "Jácint",
+        "PL": "Anity, Elizy",
+        "AT": "Hyazinth"
+      },
+      {
+        "den": "0818",
+        "SK": "Elena, Helena",
+        "SKd": "Elena, Helena, Ilona",
+        "CZ": "Helena",
+        "HU": "Ilona",
+        "PL": "Ilony, Klary",
+        "AT": "Helene, Claudia"
+      },
+      {
+        "den": "0819",
+        "SK": "Lýdia",
+        "SKd": "Lýdia, Vratislava, Lilien",
+        "CZ": "Ludvík",
+        "HU": "Huba",
+        "PL": "Jana, Boleslawa",
+        "AT": "Emilia B."
+      },
+      {
+        "den": "0820",
+        "SK": "Anabela",
+        "SKd": "Anabela, Arabela, Liliana",
+        "CZ": "Bernard",
+        "HU": "István",
+        "PL": "Bernarda, Samuela",
+        "AT": "Bernhard v. Cl."
+      },
+      {
+        "den": "0821",
+        "SK": "Jana",
+        "SKd": "Jana, Johana, Jovana",
+        "CZ": "Johana",
+        "HU": "Sémuel, Hajna",
+        "PL": "Franciszka, Joanny",
+        "AT": "Pius X."
+      },
+      {
+        "den": "0822",
+        "SK": "Tichomír",
+        "SKd": "Tichomír, Sigfríd, Tichomil, Tichomíra",
+        "CZ": "Bohuslav",
+        "HU": "Menyhért, Mirjam",
+        "PL": "Marii, Cezarego",
+        "AT": "Regina, Siegfried A."
+      },
+      {
+        "den": "0823",
+        "SK": "Filip",
+        "SKd": "Filip, Vlastislav, Filipa, Filipína, Vlastislava",
+        "CZ": "Sandra",
+        "HU": "Bence",
+        "PL": "Rozy, Apolinarego",
+        "AT": "Rosa v. L., Philipp B."
+      },
+      {
+        "den": "0824",
+        "SK": "Bartolomej",
+        "SKd": "Bartolomej, Bartolomea",
+        "CZ": "Bartoloměj",
+        "HU": "Bertalan",
+        "PL": "Emilii, Jerzego",
+        "AT": "Isolde, Michaela"
+      },
+      {
+        "den": "0825",
+        "SK": "Ľudovít",
+        "SKd": "Ľudovít, Ludvig, Radim, Ľudovíta",
+        "CZ": "Radim",
+        "HU": "Lajos, Patricia",
+        "PL": "Luizy, Ludwika",
+        "AT": "Ludwig IX., Patricia"
+      },
+      {
+        "den": "0826",
+        "SK": "Samuel",
+        "SKd": "Samuel, Samo, Zemfír, Samuela, Tália, Zemfíra",
+        "CZ": "Luděk",
+        "HU": "Izsó",
+        "PL": "Marii, Zefiryny",
+        "AT": "Margareta v. F."
+      },
+      {
+        "den": "0827",
+        "SK": "Silvia",
+        "SKd": "Silvia, Silvio, Silvius",
+        "CZ": "Otakar",
+        "HU": "Gáspár",
+        "PL": "Moniki, Cezarego",
+        "AT": "Monika"
+      },
+      {
+        "den": "0828",
+        "SK": "Augustín",
+        "SKd": "Augustín, August, Augusta, Augustína, Gustína",
+        "CZ": "Augustýn",
+        "HU": "Ágoston",
+        "PL": "Patrycji, Wyszomira",
+        "AT": "Augustin"
+      },
+      {
+        "den": "0829",
+        "SK": "Nikola, Nikolaj",
+        "SKd": "Nikola, Nikolaj, Koleta, Nikoleta",
+        "SKsviatky": "Výročie Slovenského národného povstania",
+        "CZ": "Evelína",
+        "HU": "Beatrix, Erna",
+        "PL": "Beaty, Jana",
+        "AT": "Sabine, Beatrix v. A."
+      },
+      {
+        "den": "0830",
+        "SK": "Ružena",
+        "SKd": "Ružena, Ružica",
+        "CZ": "Vladěna",
+        "HU": "Rózsa",
+        "PL": "Rozy, Szczesnego",
+        "AT": "Herbert v. K., Felix"
+      },
+      {
+        "den": "0831",
+        "SK": "Nora",
+        "SKd": "Nora, Rajmund, Ramón, Rajmunda, Ramona",
+        "CZ": "Pavlína",
+        "HU": "Erika, Bella",
+        "PL": "Izabeli, Ramony",
+        "AT": "Raimund N."
+      },
+      {
+        "den": "0901",
+        "SK": "Drahoslava",
+        "SKd": "Drahoslava, Egid, Egídius, Deborah",
+        "SKsviatky": "Deň ústavy Slovenskej republiky",
+        "CZ": "Linda, Samuel",
+        "HU": "Egyed, Egon",
+        "PL": "Bronislawy, Idziego",
+        "AT": "Verena, Ruth"
+      },
+      {
+        "den": "0902",
+        "SK": "Linda, Rebeka",
+        "SKd": "Linda, Absolón, Axel, Justus, Ermelinda, Melinda, Rebeka",
+        "CZ": "Adéla",
+        "HU": "Rebeka, Dorina",
+        "PL": "Juliana, Stefana",
+        "AT": "René, Ingrid"
+      },
+      {
+        "den": "0903",
+        "SK": "Belo",
+        "SKd": "Belo, Antim, Klélia",
+        "CZ": "Bronislav",
+        "HU": "Hilda",
+        "PL": "Izabeli, Szymona",
+        "AT": "Gregor d. Gr."
+      },
+      {
+        "den": "0904",
+        "SK": "Rozália",
+        "SKd": "Rozália, Kandid, Mojžiš, Rozalín, Rozálio, Kandida, Róza, Rozeta, Rozita, Rusalka",
+        "CZ": "Jindřiška",
+        "HU": "Rozália",
+        "PL": "Jdy, Lilianny",
+        "AT": "Rosalia, Ida"
+      },
+      {
+        "den": "0905",
+        "SK": "Regina",
+        "SKd": "Regína, Bojan, Bojimír, Bojislav, Borimír, Branimír, Chotimír, Justinián, Otakar, Regan, Regulus, Viktorín, Bojana, Bojimíra, Boislava, Branimíra, Budislava, Chotimíra, Larisa",
+        "CZ": "Boris",
+        "HU": "Viktor, Lőrinc",
+        "PL": "Doroty, Wawrzynca",
+        "AT": "Laurentius, Albert"
+      },
+      {
+        "den": "0906",
+        "SK": "Alica",
+        "SKd": "Alica, Brian, Magnus, Mansvét, Zachariáš, Bria, Larisa",
+        "CZ": "Boleslav",
+        "HU": "Zakariás",
+        "PL": "Beaty, Eugeniusza",
+        "AT": "Magnus, Beata"
+      },
+      {
+        "den": "0907",
+        "SK": "Marianna",
+        "SKd": "Marianna, Mariana",
+        "CZ": "Regína",
+        "HU": "Regina",
+        "PL": "Reginy, Melchiora",
+        "AT": "Regina, Ralph"
+      },
+      {
+        "den": "0908",
+        "SK": "Miriama",
+        "SKd": "Miriama, Miriana",
+        "CZ": "Mariana",
+        "HU": "Mária, Adrienn",
+        "PL": "Marii, Adriany",
+        "AT": "Mariä Geburt"
+      },
+      {
+        "den": "0909",
+        "SK": "Martina",
+        "SKd": "Martina, Gordan, Gordián, Gordon, Omar, Gordana, Rea, Tina",
+        "CZ": "Daniela",
+        "HU": "Ádám",
+        "PL": "Piotra, Sergiusza",
+        "AT": "Grogonius"
+      },
+      {
+        "den": "0910",
+        "SK": "Oleg",
+        "SKd": "Oleg, Honór, Vitold, Honóra, Krasava, Vitolda",
+        "CZ": "Irma",
+        "HU": "Nikolett, Hunor",
+        "PL": "Lukasza, Mikolaja",
+        "AT": "Nikolaus v. T., Diethard"
+      },
+      {
+        "den": "0911",
+        "SK": "Bystrík",
+        "SKd": "Bystrík, Prótus, Zdislav, Helga, Zdislava",
+        "CZ": "Denisa, Denis",
+        "HU": "Teodóra",
+        "PL": "Jacka, Dagny",
+        "AT": "Helga"
+      },
+      {
+        "den": "0912",
+        "SK": "Mária",
+        "SKd": "Mária, Maja, Manon, Manona, Marica, Mariela, Marieta, Marika, Marila, Mariola, Marlena, Marusia, Jessica, Mia",
+        "CZ": "Marie",
+        "HU": "Mária",
+        "PL": "Radzimira, Gwidona",
+        "AT": "Eberhard, Guido"
+      },
+      {
+        "den": "0913",
+        "SK": "Ctibor",
+        "SKd": "Ctibor, Amát, Amátus, Stibor, Sven, Amáta, Tobias",
+        "CZ": "Lubor",
+        "HU": "Kornél",
+        "PL": "Eugeni, Aureliusza",
+        "AT": "Tobias"
+      },
+      {
+        "den": "0914",
+        "SK": "Ľudomil",
+        "SKd": "Ľudomil, Dragan, Dragutín, Drahan, Drahotín, Ľudomila, Radka, Serena",
+        "CZ": "Radka",
+        "HU": "Szeréna, Roxána",
+        "PL": "Roksana, Bernarda",
+        "AT": "Kreuz-Erhöhung"
+      },
+      {
+        "den": "0915",
+        "SK": "Jolana",
+        "SKd": "Jolana, Melissa, Melisa, Melita",
+        "SKsviatky": "Sedembolestná Panna Mária",
+        "CZ": "Jolana",
+        "HU": "Enikő, Melitta",
+        "PL": "Albina, Nikodema",
+        "AT": "Dolores, Melitta"
+      },
+      {
+        "den": "0916",
+        "SK": "Ľudmila",
+        "SKd": "Ľudmila, Dunja",
+        "CZ": "Ludmila",
+        "HU": "Edit",
+        "PL": "Edyty, Kornela",
+        "AT": "Ludmilla, Edith"
+      },
+      {
+        "den": "0917",
+        "SK": "Olympia",
+        "SKd": "Olympia, Lambert, Záviš",
+        "CZ": "Naděžda",
+        "HU": "Zsófia",
+        "PL": "Franciszka, Hildegardy",
+        "AT": "Robert B., Lambert"
+      },
+      {
+        "den": "0918",
+        "SK": "Eugénia",
+        "SKd": "Eugénia, Ariadna",
+        "CZ": "Kryštof",
+        "HU": "Diána",
+        "PL": "Irmy, Jozefa",
+        "AT": "Josef v. C."
+      },
+      {
+        "den": "0919",
+        "SK": "Konštantín",
+        "SKd": "Konštantín, Trofín, Konstancia, Konštantína",
+        "SKdni": "Deň prvého verejného vystúpenia Slovenskej národnej rady",
+        "CZ": "Zita",
+        "HU": "Vilhelmina",
+        "PL": "Januarego, Konstancji",
+        "AT": "Wilma, Arnulf"
+      },
+      {
+        "den": "0920",
+        "SK": "Ľuboslav, Ľuboslava",
+        "SKd": "Ľuboslav, Ľuboslava, Eustach, Filibert, Liboslav, Eustachia, Liboslava",
+        "CZ": "Oleg",
+        "HU": "Friderika",
+        "PL": "Filipiny, Eustachego",
+        "AT": "Fausta, Candida"
+      },
+      {
+        "den": "0921",
+        "SK": "Matúš",
+        "SKd": "Matúš, Ifigénia, Mirela",
+        "CZ": "Matouš",
+        "HU": "Máté, Mirella",
+        "PL": "Jonasza, Mateusza",
+        "AT": "Matthäus"
+      },
+      {
+        "den": "0922",
+        "SK": "Móric",
+        "SKd": "Móric, Maurícius, Maurus",
+        "CZ": "Darina",
+        "HU": "Móric",
+        "PL": "Tomasza, Maurycego",
+        "AT": "Moritz"
+      },
+      {
+        "den": "0923",
+        "SK": "Zdenka",
+        "SKd": "Zdenka, Polyxénia, Tekla, Zdena",
+        "CZ": "Berta",
+        "HU": "Tekla",
+        "PL": "Boguslawa, Tekli",
+        "AT": "Helene D., Thekla"
+      },
+      {
+        "den": "0924",
+        "SK": "Ľuboš, Ľubor",
+        "SKd": "Ľubor, Ľuboš, Terenc",
+        "CZ": "Jaromír",
+        "HU": "Gellért, Mercédesz",
+        "PL": "Gerarda, Teodora",
+        "AT": "Rupert v. S."
+      },
+      {
+        "den": "0925",
+        "SK": "Vladislav",
+        "SKd": "Vladislav, Vladivoj, Eufrozina, Fruzína, Vladislava, Jesika",
+        "CZ": "Zlata",
+        "HU": "Eufrozina, Kende",
+        "PL": "Aurelii, Ladyslawa",
+        "AT": "Nikolaus v. Fl."
+      },
+      {
+        "den": "0926",
+        "SK": "Edita",
+        "SKd": "Edita, Damián, Kozmas, Damiána,",
+        "CZ": "Andrea",
+        "HU": "Jusztina, Pál",
+        "PL": "Justyny, Cypriana",
+        "AT": "Eugenia"
+      },
+      {
+        "den": "0927",
+        "SK": "Cyprián",
+        "SKd": "Cyprián,Mirabela",
+        "CZ": "Jonáš",
+        "HU": "Adalbert",
+        "PL": "Damiana, Amadeusza",
+        "AT": "Vinzenz v. P."
+      },
+      {
+        "den": "0928",
+        "SK": "Václav",
+        "SKd": "Václav, Chariton, Kariton, Václava",
+        "CZ": "Václav",
+        "CZsviatky": "Den české státnosti",
+        "HU": "Vencel",
+        "PL": "Luby, Waclawa",
+        "AT": "Wenzel v. B., Dietmar"
+      },
+      {
+        "den": "0929",
+        "SK": "Michal, Michaela",
+        "SKd": "Michal, Michaela, Michael, Michala",
+        "CZ": "Michal",
+        "HU": "Mihály",
+        "PL": "Michala, Michaliny",
+        "AT": "Michael, Gabriel"
+      },
+      {
+        "den": "0930",
+        "SK": "Jarolím",
+        "SKd": "Jarolím, Hieronym, Jeremiáš, Jarolíma, Ráchel, Ráchela, Una",
+        "CZ": "Jeroným",
+        "HU": "Jeromos",
+        "PL": "Wery, Honoriusza",
+        "AT": "Hieronymus"
+      },
+      {
+        "den": "1001",
+        "SK": "Arnold",
+        "SKd": "Arnold, Remig, Remus, Arnolda, Belina",
+        "CZ": "Igor",
+        "HU": "Malvin",
+        "PL": "Danuty, Remigiusza",
+        "AT": "Theresia v. K. J."
+      },
+      {
+        "den": "1002",
+        "SK": "Levoslav",
+        "SKd": "Levoslav, Leodegar, Levoslava",
+        "CZ": "Olívie, Oliver",
+        "HU": "Petra",
+        "PL": "Teofila, Dinozji",
+        "AT": "Schutzengelfest"
+      },
+      {
+        "den": "1003",
+        "SK": "Stela",
+        "SKd": "Stela, Amadeus, Evald, Amadea",
+        "CZ": "Bohumil",
+        "HU": "Helga",
+        "PL": "Teresy, Heliodora",
+        "AT": "Ewald, Udo"
+      },
+      {
+        "den": "1004",
+        "SK": "František",
+        "SKd": "František, Edvin, Fraňo",
+        "CZ": "František",
+        "HU": "ferenc",
+        "PL": "Rozalii, Edwina",
+        "AT": "Franz v. Assisi, Edwin"
+      },
+      {
+        "den": "1005",
+        "SK": "Viera",
+        "SKd": "Viera, Blahomír, Placid, Blahomíra, Karitína, Placida",
+        "CZ": "Eliška",
+        "HU": "Aurél",
+        "PL": "Igora, Flawii",
+        "AT": "Attila, Placidus"
+      },
+      {
+        "den": "1006",
+        "SK": "Natália",
+        "SKd": "Natália",
+        "SKdni": "Deň obetí Dukly",
+        "CZ": "Hanuš",
+        "HU": "Brúnó, Renáta",
+        "PL": "Artura, Brunona",
+        "AT": "Bruno d. Karth."
+      },
+      {
+        "den": "1007",
+        "SK": "Eliška",
+        "SKd": "Eliška",
+        "CZ": "Justýna",
+        "HU": "Amália",
+        "PL": "Marii, Marka",
+        "AT": "Markus I."
+      },
+      {
+        "den": "1008",
+        "SK": "Brigita",
+        "SKd": "Brigita, Brit, Brita",
+        "CZ": "Věra",
+        "HU": "Koppány",
+        "PL": "Pelagii, Brygidy",
+        "AT": "Simeon"
+      },
+      {
+        "den": "1009",
+        "SK": "Dionýz",
+        "SKd": "Dionýz, Dionýzia",
+        "CZ": "Štefan, Sára",
+        "HU": "Dénes",
+        "PL": "Arnolda, Dionizego",
+        "AT": "Dionysius"
+      },
+      {
+        "den": "1010",
+        "SK": "Slavomíra",
+        "SKd": "Slavomíra, Gedeon, Záboj, Krasomila",
+        "CZ": "Marina",
+        "HU": "Gedeon",
+        "PL": "Pauliny, Franciszka",
+        "AT": "Viktor v. X."
+      },
+      {
+        "den": "1011",
+        "SK": "Valentína",
+        "SKd": "Valentína, Belín, Zvonimír, Zvonislav, Bruna, Brunhilda, Luneta, Selena, Zvonimíra, Zvonislava",
+        "CZ": "Andrej",
+        "HU": "Brigitta",
+        "PL": "Emila, Aldony",
+        "AT": "Bruno v. K."
+      },
+      {
+        "den": "1012",
+        "SK": "Maximilián",
+        "SKd": "Maximilián, Max, Maximiliána",
+        "CZ": "Marcel",
+        "HU": "Miksa",
+        "PL": "Eustachego, Maksymiliana",
+        "AT": "Maximilian, Horst"
+      },
+      {
+        "den": "1013",
+        "SK": "Koloman",
+        "SKd": "Koloman, Edgar",
+        "CZ": "Renáta",
+        "HU": "Kálmán, Ede",
+        "PL": "Gerarda, Edwarda",
+        "AT": "Eduard"
+      },
+      {
+        "den": "1014",
+        "SK": "Boris",
+        "SKd": "Boris, Borislav, Kalist, Borislava, Kalista",
+        "CZ": "Agáta",
+        "HU": "Helén",
+        "PL": "Alana, Kaliksta",
+        "AT": "Burkhard"
+      },
+      {
+        "den": "1015",
+        "SK": "Terézia",
+        "SKd": "Terézia, Tereza",
+        "CZ": "Tereza",
+        "HU": "Teréz",
+        "PL": "Teresy, Jadwigi",
+        "AT": "Theresia v. A."
+      },
+      {
+        "den": "1016",
+        "SK": "Vladimíra",
+        "SKd": "Vladimíra, Gál, Havel, Havla",
+        "CZ": "Havel",
+        "HU": "Gál",
+        "PL": "Gawla, Florentyny",
+        "AT": "Hedwig"
+      },
+      {
+        "den": "1017",
+        "SK": "Hedviga",
+        "SKd": "Hedviga, Jadviga",
+        "CZ": "Hedvika",
+        "HU": "Hedvig",
+        "PL": "Malgorzaty, Wiktora",
+        "AT": "Ignatuis v. A., Rudolf"
+      },
+      {
+        "den": "1018",
+        "SK": "Lukáš",
+        "SKd": "Lukáš",
+        "CZ": "Lukáš",
+        "HU": "Lukács",
+        "PL": "Juliusza, Lukasza",
+        "AT": "Lukas"
+      },
+      {
+        "den": "1019",
+        "SK": "Kristián",
+        "SKd": "Kristián, Christián, Izák, Christiána, Kristiána",
+        "CZ": "Michaela",
+        "HU": "Nándor",
+        "PL": "Pelagii, Piotra",
+        "AT": "Paul v. Kr., Frieda"
+      },
+      {
+        "den": "1020",
+        "SK": "Vendelín",
+        "SKd": "Vendelín, Eunika, Vendelína",
+        "CZ": "Vendelin",
+        "HU": "Vendel",
+        "PL": "Ireny, Jana",
+        "AT": "Wendelin"
+      },
+      {
+        "den": "1021",
+        "SK": "Uršuľa",
+        "SKd": "Uršuľa, Anatol, Anatólia, Antília",
+        "CZ": "Brigita",
+        "HU": "Orsolya",
+        "PL": "Urszuli, Hilarego",
+        "AT": "Ursula"
+      },
+      {
+        "den": "1022",
+        "SK": "Sergej",
+        "SKd": "Sergej, Dobromil, Sergius, Zdravomil, Kordula, Korduľa, Pribislava, Saloma, Saloména, Solomia",
+        "CZ": "Sabina",
+        "HU": "Előd",
+        "PL": "Filipa, Korduli",
+        "AT": "Kordula"
+      },
+      {
+        "den": "1023",
+        "SK": "Alojzia",
+        "SKd": "Alojzia, Žitomír",
+        "CZ": "Teodora",
+        "HU": "Gyöngyi",
+        "PL": "Marleny, Seweryna",
+        "AT": "Oda"
+      },
+      {
+        "den": "1024",
+        "SK": "Kvetoslava",
+        "SKd": "Kvetoslava, Aretas, Cvetan, Gilbert, Harold, Herald, Krasomil, Kvetoň, Kvetoslav, Rafael, Šalamún, Areta, Cvetana, Gilberta, Kveta, Kvetana, Kvetava, Rafaela",
+        "CZ": "Nina",
+        "HU": "Salamon",
+        "PL": "Rafala, Marcina",
+        "AT": "Anton M. Cl."
+      },
+      {
+        "den": "1025",
+        "SK": "Aurel",
+        "SKd": "Aurel, Krišpín, Vojmír, Zosim, Živan, Živko, Dália, Vojmíra, Živa, Živana",
+        "CZ": "Beáta",
+        "HU": "Blanka, Bianka",
+        "PL": "Darii, Wilhelminy",
+        "AT": "Krispin"
+      },
+      {
+        "den": "1026",
+        "SK": "Demeter",
+        "SKd": "Demeter, Amand, Dimitrij, Evarist, Amanda, Demetria",
+        "CZ": "Erik",
+        "HU": "Dömötör",
+        "PL": "Lucjana, Ewarysta",
+        "AT": "Nationalfeiertag"
+      },
+      {
+        "den": "1027",
+        "SK": "Sabína",
+        "SKd": "Sabína, Horislav, Hromislav, Horislava, Hromislava, Sabrina, Zoa, Zoana",
+        "SKdni": "Deň černovskej tragédie",
+        "CZ": "Šarlota",
+        "HU": "Szabina",
+        "PL": "Jwony, Sabiny",
+        "AT": "Wolfhard"
+      },
+      {
+        "den": "1028",
+        "SK": "Dobromila",
+        "SKd": "Dobromila,Kevin",
+        "CZsviatky": "Den vzniku samostatného Československého státu - 1918",
+        "HU": "Simon, Szimonetta",
+        "PL": "Szymona, Tadeusza",
+        "AT": "Simon, Judas, Thadd."
+      },
+      {
+        "den": "1029",
+        "SK": "Klára",
+        "SKd": "Klára, Narcis, Zenob, Klarisa, Narcisa, Zenóbia, Chiara",
+        "SKdni": "Deň narodenia Ľudovíta Štúra",
+        "CZ": "Silvie",
+        "HU": "Nárcisz",
+        "PL": "Euzebii, Wioletty",
+        "AT": "Hermelindis"
+      },
+      {
+        "den": "1030",
+        "SK": "Šimon, Simona",
+        "SKd": "Šimon, Simona, Arzen, Asen, Simon, Asena, Simoneta, Šimona",
+        "SKdni": "Výročie Deklarácie slovenského národa",
+        "CZ": "Tadeáš",
+        "HU": "Alfonz",
+        "PL": "Zenobii, Przemyslawa",
+        "AT": "Alfons Rodr."
+      },
+      {
+        "den": "1031",
+        "SK": "Aurélia",
+        "SKd": "Aurélia, Stacho, Volfgang",
+        "SKdni": "Deň reformácie",
+        "CZ": "Štěpánka",
+        "HU": "Farkas",
+        "PL": "Urbana, Saturnina",
+        "AT": "Wolfgang, Christoph"
+      },
+      {
+        "den": "1101",
+        "SK": "Denis, Denisa",
+        "SKd": "Denis, Denisa",
+        "SKsviatky": "Sviatok všetkých svätých",
+        "CZ": "Felix",
+        "HU": "Marianna",
+        "PL": "Juliana, Lukasza",
+        "AT": "Allerheiligen"
+      },
+      {
+        "den": "1102",
+        "SKd": "-, Cézar, Cezária",
+        "HU": "Achilles",
+        "PL": "Bohdany, Tobiasza",
+        "AT": "Allerseelen"
+      },
+      {
+        "den": "1103",
+        "SK": "Hubert",
+        "SKd": "Hubert",
+        "CZ": "Hubert",
+        "HU": "Győző",
+        "PL": "Sylwii, Huberta",
+        "AT": "Hubert, Silvia"
+      },
+      {
+        "den": "1104",
+        "SK": "Karol",
+        "SKd": "Karol, Džesika, Jesika, Karola, Skarleta, Jessica",
+        "CZ": "Karel",
+        "HU": "Károly",
+        "PL": "Karola, Olgierda",
+        "AT": "Karl Borr."
+      },
+      {
+        "den": "1105",
+        "SK": "Imrich",
+        "SKd": "Imrich, Emerich, Imriška",
+        "CZ": "Miriam",
+        "HU": "Imre",
+        "PL": "Elzbiety, Slawomira",
+        "AT": "Emmerich"
+      },
+      {
+        "den": "1106",
+        "SK": "Renáta",
+        "SKd": "Renáta, Renát, Renáto, Renátus",
+        "CZ": "Liběna",
+        "HU": "Lénárd",
+        "PL": "Feliksa, Leonarda",
+        "AT": "Christina d. K."
+      },
+      {
+        "den": "1107",
+        "SK": "René",
+        "SKd": "René, Engelbert",
+        "CZ": "Saskia",
+        "HU": "Rezső",
+        "PL": "Antoniego, Zytomira",
+        "AT": "Engelbert"
+      },
+      {
+        "den": "1108",
+        "SK": "Bohumír",
+        "SKd": "Bohumír, Bohumíra",
+        "CZ": "Bohumir",
+        "HU": "Zsombor",
+        "PL": "Sewera, Hadriany",
+        "AT": "Gottfried"
+      },
+      {
+        "den": "1109",
+        "SK": "Teodor",
+        "SKd": "Teodor, Orest, Teo, Teodorik, Teodoz, Deodata, Tea, Teodora, Teodózia",
+        "CZ": "Bohdan",
+        "HU": "Tivadar",
+        "PL": "Ursyna, Todora",
+        "AT": "Theodor"
+      },
+      {
+        "den": "1110",
+        "SK": "Tibor",
+        "SKd": "Tibor, Tiber, Meluzína, Tibora",
+        "CZ": "Evžen",
+        "HU": "Réka",
+        "PL": "Leny, Ludomira",
+        "AT": "Leo d. Gr., Andreas Av."
+      },
+      {
+        "den": "1111",
+        "SK": "Martin, Maroš",
+        "SKd": "Maroš, Martin, Martinián",
+        "CZ": "Martin",
+        "HU": "Márton",
+        "PL": "Marcina, Bartlomieja",
+        "AT": "Martin v. T."
+      },
+      {
+        "den": "1112",
+        "SK": "Svätopluk",
+        "SKd": "Svätopluk, Astrid, Jonáš, Astrida",
+        "CZ": "Benedikt",
+        "HU": "Jónás, Renátó",
+        "PL": "Renaty, Witolda",
+        "AT": "Emil, Christian"
+      },
+      {
+        "den": "1113",
+        "SK": "Stanislav",
+        "SKd": "Stanislav",
+        "CZ": "Tibor",
+        "HU": "Szilvia",
+        "PL": "Mikolaja, Stanislawa",
+        "AT": "Eugen"
+      },
+      {
+        "den": "1114",
+        "SK": "Irma",
+        "SKd": "Irma, Juventín, Mladen, Mladoň, Mladotín, Ima, Juventína, Mladena, Mladotína",
+        "CZ": "Sáva",
+        "HU": "Aliz",
+        "PL": "Rogera, Serafiny",
+        "AT": "Alberich"
+      },
+      {
+        "den": "1115",
+        "SK": "Leopold",
+        "SKd": "Leopold, Leopolda, Leopoldína",
+        "CZ": "Leopold",
+        "CZsviatky": "Den boje studentů za svobodu a demokracii - 1989",
+        "HU": "Albert, Lipót",
+        "PL": "Alberta, Leopolda",
+        "AT": "Leopold von Österreich"
+      },
+      {
+        "den": "1116",
+        "SK": "Agnesa",
+        "SKd": "Agnesa, Otmar, Agneša, Inéza",
+        "CZ": "Otmar, Maulena",
+        "HU": "Ödön",
+        "PL": "Gertrudy, Edmunda",
+        "AT": "Othmar, Edmund"
+      },
+      {
+        "den": "1117",
+        "SK": "Klaudia",
+        "SKd": "Klaudia, Klodeta",
+        "SKsviatky": "Deň boja za slobodu a demokraciu",
+        "CZ": "Mahulena",
+        "HU": "Hortenzia, Gergő",
+        "PL": "Grzegorza, Salomei",
+        "AT": "Gertrud, Hilda"
+      },
+      {
+        "den": "1118",
+        "SK": "Eugen",
+        "SKd": "Eugen, Platón",
+        "CZ": "Romana",
+        "HU": "Jenő",
+        "PL": "Romana, Klaudyny",
+        "AT": "Odo, Roman"
+      },
+      {
+        "den": "1119",
+        "SK": "Alžbeta",
+        "SKd": "Alžbeta, Betina, Elizabeta, Lila, Liliana, Líza, Lili, Lilly",
+        "CZ": "Alžběta",
+        "HU": "Erzsébet",
+        "PL": "Elzbiety, Seweryna",
+        "AT": "Elisabeth von Th."
+      },
+      {
+        "den": "1120",
+        "SK": "Félix",
+        "SKd": "Félix, Filemon, Homér",
+        "CZ": "Nikol, Nikola",
+        "HU": "Jolán",
+        "PL": "Anatola, Sedzimira",
+        "AT": "Edmund K."
+      },
+      {
+        "den": "1121",
+        "SK": "Elvíra",
+        "SKd": "Elvíra, Ctirad, Ctirada",
+        "CZ": "Albert",
+        "HU": "Olivér",
+        "PL": "Janusza, Konrada",
+        "AT": "Gelasius I."
+      },
+      {
+        "den": "1122",
+        "SK": "Cecília",
+        "SKd": "Cecília, Cecilián, Šejla",
+        "CZ": "Cecílie",
+        "HU": "Cecilia",
+        "PL": "Marka, Cecylii",
+        "AT": "Cäcilia"
+      },
+      {
+        "den": "1123",
+        "SK": "Klement",
+        "SKd": "Klement, Klementín, Kliment, Kolumbín, Klementína, Kolumbína",
+        "CZ": "Klement",
+        "HU": "Kelemen, Klementina",
+        "PL": "Adeli, Klemensa",
+        "AT": "Klemens I., Felicitas"
+      },
+      {
+        "den": "1124",
+        "SK": "Emília",
+        "SKd": "Emília, Milín, Milina",
+        "CZ": "Emílie",
+        "HU": "Emma",
+        "PL": "Flory, Emmy",
+        "AT": "Chrysogonus, Flora"
+      },
+      {
+        "den": "1125",
+        "SK": "Katarína",
+        "SKd": "Katarína, Katrina",
+        "CZ": "Kateřina",
+        "HU": "Katalin",
+        "PL": "Katarzyny, Erazma",
+        "AT": "Katharina v. A."
+      },
+      {
+        "den": "1126",
+        "SK": "Kornel",
+        "SKd": "Kornel, Valerián",
+        "CZ": "Artur",
+        "HU": "Virág",
+        "PL": "Delfiny, Sylwestra",
+        "AT": "Konrad"
+      },
+      {
+        "den": "1127",
+        "SK": "Milan",
+        "SKd": "Milan, Nestor, Virgil, Milana",
+        "CZ": "Xenie",
+        "HU": "Virgil",
+        "PL": "Waleriana, Wilgiusza",
+        "AT": "Oda, Modestus"
+      },
+      {
+        "den": "1128",
+        "SK": "Henrieta",
+        "SKd": "Henrieta, Gerhard, Tristan, Desdemona, Eta",
+        "CZ": "René",
+        "HU": "Stefánia",
+        "PL": "Leslawa, Zdzislawa",
+        "AT": "Gunther, Stephan d. J."
+      },
+      {
+        "den": "1129",
+        "SK": "Vratko",
+        "SKd": "Vratko, Saturnín, Zaida",
+        "CZ": "Zina",
+        "HU": "Taksony",
+        "PL": "Blazeja, Saturnina",
+        "AT": "Friedrich v. R."
+      },
+      {
+        "den": "1130",
+        "SK": "Ondrej, Andrej",
+        "SKd": "Andrej, Ondrej, Andreas",
+        "CZ": "Ondřej",
+        "HU": "András, Andor",
+        "PL": "Maury, Andrzeja",
+        "AT": "Andreas"
+      },
+      {
+        "den": "1201",
+        "SK": "Edmund",
+        "SKd": "Edmund, Edmunda",
+        "CZ": "Iva",
+        "HU": "Elza",
+        "PL": "Natalii, Eligiusza",
+        "AT": "Blanka, Natalie"
+      },
+      {
+        "den": "1202",
+        "SK": "Bibiána",
+        "SKd": "Bibiána, Budimír, Budislav, Budimíra, Viviána, Vivien",
+        "CZ": "Blanka",
+        "HU": "Melinda, Vivien",
+        "PL": "Balbiny, Bibianny",
+        "AT": "Bibiana"
+      },
+      {
+        "den": "1203",
+        "SK": "Oldrich",
+        "SKd": "Oldrich, Sofron, Xavér, Sofrónia, Xavéria",
+        "CZ": "Svatoslav",
+        "HU": "Ferenc, Olivia",
+        "PL": "Franciszka, Ksawerego",
+        "AT": "Franz, Xaver"
+      },
+      {
+        "den": "1204",
+        "SK": "Barbora, Barbara",
+        "SKd": "Barbora, Babeta, Barbara, Barica",
+        "CZ": "Barbora",
+        "HU": "Borbála, Barbara",
+        "PL": "Barbary, Krystiana",
+        "AT": "Barbara"
+      },
+      {
+        "den": "1205",
+        "SK": "Oto",
+        "SKd": "Oto, Gerald, Otakar, Otokar, Geralda, Geraldína, Jitka, Ota, Sáva",
+        "CZ": "Jitka",
+        "HU": "Vilma",
+        "PL": "Saby, Kryspina",
+        "AT": "Gerald"
+      },
+      {
+        "den": "1206",
+        "SK": "Mikuláš",
+        "SKd": "Mikuláš, Nikita, Niko, Nikolas, Mikuláška, Nikoleta",
+        "CZ": "Mikuláš",
+        "HU": "Miklós",
+        "PL": "Mikolaja, Jaremy",
+        "AT": "Nikolaus v. M."
+      },
+      {
+        "den": "1207",
+        "SK": "Ambróz",
+        "SKd": "Ambróz, Amarant, Amaranta, Ambrózia",
+        "CZ": "Benjamín",
+        "HU": "Ambrus",
+        "PL": "Marcina, Ambrozy",
+        "AT": "Ambrosius"
+      },
+      {
+        "den": "1208",
+        "SK": "Marína",
+        "SKd": "Marína",
+        "CZ": "Květoslava",
+        "HU": "Mária",
+        "PL": "Marii, Swiatozara",
+        "AT": "Mariä Empfängnis"
+      },
+      {
+        "den": "1209",
+        "SK": "Izabela",
+        "SKd": "Izabela, Dalila, Leokádia",
+        "CZ": "Vratislav",
+        "HU": "Natália",
+        "PL": "Wieslawa, Leokadii",
+        "AT": "Valerie"
+      },
+      {
+        "den": "1210",
+        "SK": "Radúz",
+        "SKd": "Radúz, Herbert",
+        "CZ": "Julie",
+        "HU": "Judit",
+        "PL": "Julii, Danieli",
+        "AT": "Diethard"
+      },
+      {
+        "den": "1211",
+        "SK": "Hilda",
+        "SKd": "Hilda, Hildegard, Hildegarda",
+        "CZ": "Dana",
+        "HU": "Árpád",
+        "PL": "Damazego, Waldemara",
+        "AT": "David, Daniel"
+      },
+      {
+        "den": "1212",
+        "SK": "Otília",
+        "SKd": "Otília, Spiridon, Dília, Odeta",
+        "CZ": "Simona",
+        "HU": "Gabriella",
+        "PL": "Dagmary, Aleksandry",
+        "AT": "Johanna F. v. Ch."
+      },
+      {
+        "den": "1213",
+        "SK": "Lucia",
+        "SKd": "Lucia, Rosan, Rosana, Roxana",
+        "CZ": "Lucie",
+        "HU": "Luca, Otilia",
+        "PL": "Lucji, Otylii",
+        "AT": "Lucia, Ottilie"
+      },
+      {
+        "den": "1214",
+        "SK": "Branislava, Bronislava",
+        "SKd": "Branislava, Bronislava, Broňa",
+        "CZ": "Lýdie",
+        "HU": "Szilárda",
+        "PL": "Alfreda, Izydora",
+        "AT": "Franziska"
+      },
+      {
+        "den": "1215",
+        "SK": "Ivica",
+        "SKd": "Ivica, Detrich, Radan, Radana",
+        "CZ": "Radana",
+        "HU": "Valér",
+        "PL": "Niny, Celiny",
+        "AT": "Christiana, Nina"
+      },
+      {
+        "den": "1216",
+        "SK": "Albína",
+        "SKd": "Albína, Bela, Teofánia",
+        "CZ": "Albína",
+        "HU": "Etelka, Aletta",
+        "PL": "Albiny, Zdzislawy",
+        "AT": "Adelheid"
+      },
+      {
+        "den": "1217",
+        "SK": "Kornélia",
+        "SKd": "Kornélia, Lazár, Kora, Korina",
+        "CZ": "Daniel",
+        "HU": "Lázár, Olimpia",
+        "PL": "Olimpii, Lazarza",
+        "AT": "Lazarus, Jolanda"
+      },
+      {
+        "den": "1218",
+        "SK": "Sláva",
+        "SKd": "Sláva, Slávka, Gracián, Grácia, Graciána, Slavislava",
+        "CZ": "Miloslav",
+        "HU": "Auguszta",
+        "PL": "Gracjana, Boguslawa",
+        "AT": "Gatian"
+      },
+      {
+        "den": "1219",
+        "SK": "Judita",
+        "SKd": "Judita, Abrahám, Mstislav, Neméz, Ita, Mstislava, Neméza",
+        "CZ": "Ester",
+        "HU": "Viola",
+        "PL": "Gabrieli, Dariusza",
+        "AT": "Urban V."
+      },
+      {
+        "den": "1220",
+        "SK": "Dagmara",
+        "SKd": "Dagmara, Dagmar, Dag, Dagobert, Daga, Damara",
+        "CZ": "Dagmar",
+        "HU": "Teofil",
+        "PL": "Bogumily, Dominika",
+        "AT": "Eugen v. A."
+      },
+      {
+        "den": "1221",
+        "SK": "Bohdan",
+        "SKd": "Bohdan",
+        "CZ": "Natálie",
+        "HU": "Tamás",
+        "PL": "Tomasza, Tomislawa",
+        "AT": "Ingomar"
+      },
+      {
+        "den": "1222",
+        "SK": "Adela",
+        "SKd": "Adela, Ada, Adelaida, Adelgunda, Adelína, Adina, Alida",
+        "CZ": "Šimon",
+        "HU": "Zénó",
+        "PL": "Zenona, Honoraty",
+        "AT": "Jutta, Marian"
+      },
+      {
+        "den": "1223",
+        "SK": "Nadežda",
+        "SKd": "Nadežda, Naďa",
+        "CZ": "Vlasta",
+        "HU": "Viktória",
+        "PL": "Wiktorii, Slawomiry",
+        "AT": "Victoria"
+      },
+      {
+        "den": "1224",
+        "SK": "Adam, Eva",
+        "SKd": "Adam, Eva, Evamária, Evelína, Gaja, Gajana, Geja",
+        "SKsviatky": "Štedrý deň",
+        "CZ": "Adam, Eva",
+        "CZsviatky": "Štědrý den",
+        "HU": "Ádám, Éva",
+        "PL": "Adama, Ewy",
+        "AT": "Heiliger Abend"
+      },
+      {
+        "den": "1225",
+        "SKd": "-",
+        "SKsviatky": "Prvý sviatok vianočný",
+        "CZsviatky": "Svátek vánoční 1",
+        "HU": "Eugénia",
+        "PL": "Anastazji, Eualii",
+        "AT": "Christtag"
+      },
+      {
+        "den": "1226",
+        "SK": "Štefan",
+        "SKd": "Štefan",
+        "SKsviatky": "Druhý sviatok vianočný",
+        "CZ": "Štěpán",
+        "CZsviatky": "Svátek vánoční 2",
+        "HU": "István",
+        "PL": "Jana, Zanety",
+        "AT": "Stefanitag"
+      },
+      {
+        "den": "1227",
+        "SK": "Filoména",
+        "SKd": "Filoména, Filomén",
+        "CZ": "Žaneta",
+        "HU": "János",
+        "PL": "Teofili, Godzislawa",
+        "AT": "Johannes"
+      },
+      {
+        "den": "1228",
+        "SK": "Ivana, Ivona",
+        "SKd": "Ivana, Ivona, Iva",
+        "CZ": "Bohumila",
+        "HU": "Kamilla",
+        "PL": "Jana, Maksyma",
+        "AT": "Unschuldige, Kinder"
+      },
+      {
+        "den": "1229",
+        "SK": "Milada",
+        "SKd": "Milada, Jonatán, Miladín, Nátan, Natanel",
+        "CZ": "Judita",
+        "HU": "Tamás, Tamara",
+        "PL": "Dawida, Tomasza",
+        "AT": "Thomas B., Tamara"
+      },
+      {
+        "den": "1230",
+        "SK": "Dávid",
+        "SKd": "Dávid, Lotar",
+        "SKdni": "Deň vyhlásenia Slovenska za samostatnú cirkevnú provinciu",
+        "CZ": "David",
+        "HU": "Dávid",
+        "PL": "Irminy, Eugeniusza",
+        "AT": "Hermine"
+      },
+      {
+        "den": "1231",
+        "SK": "Silvester",
+        "SKd": "Silvester, Horst",
+        "CZ": "Silvestr",
+        "HU": "Szilveszter",
+        "PL": "Melanii, Sylwestra",
+        "AT": "Silvester"
+      }
+    ]
+  }
+}
