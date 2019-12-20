@@ -23,15 +23,15 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.3;
-  font-weight: 600; }
+  font-weight: 700; }
 
 a,
 a:active,
 a:focus,
 a:hover {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -44,7 +44,7 @@ li {
 
 p {
   line-height: 1.9;
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 400; }
 
@@ -55,7 +55,27 @@ img {
 
 
 #mainNav {
+  top:0;
+  position: fixed;
   height: 60px;
+  background-color: #151515;
+}
+
+
+#mainNav .navbar-nav > li.nav-item > a {
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+#mainNav .navbar-nav > li.nav-item > a:hover {
+  color: #86C232;
+}
+
+
+
+#mainNav .navbar-brand {
+  color: #86C232;
 }
 
 #mainNav .navbar-toggler {
@@ -63,8 +83,39 @@ img {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #f58220;
+  color:  #474B4F;
   border: none;
   outline: none;
 }
 
+
+
+.masthead {
+  margin-top:60px;
+  background: url(img/mainpage-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 700px;
+}
+
+.masthead .masthead-text{
+  float: right;
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.masthead .masthead-heading {
+  padding-top: 150px;
+  color: #86C232;
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.masthead .masthead-text p {
+  padding-top: 20px;
+  font-size: 18px;
+}
