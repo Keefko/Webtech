@@ -94,8 +94,13 @@ img {
   outline: none;
 }
 
-.close {
- display: none;
+.navbar-toggler>.close {
+    display:inline;
+    color: #474B4F;
+    text-shadow: none;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
 }
 
 /* Main page */ 
@@ -159,3 +164,4 @@ img {
 #tasks ul li {
   color: #474B4F;
 }
+
