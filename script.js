@@ -15,8 +15,16 @@ class Nameday {
 var listOfNamedays = new Array();
 
 $(document).ready(function(){
-	$('.navbar-nav > .navbar-toggler-icon').on('click', function(){
-		alert("pičo");
+	$('.navbar-toggler').on('click', function(){
+		if($('.navbar-toggler').attr('aria-expanded')){
+			console.log($('.navbar-toggler').attr('aria-expanded'));
+			$('.navbar-toggler-icon').css('display', 'none');
+			$('.close').css('display','block');
+		}else{
+			console.log($('.navbar-toggler').attr('aria-expanded'));
+			$('.navbar-toggler-icon').css('display', 'block');
+			$('.close').css('display','none');
+		}
 	});
 });
 
@@ -28,3 +36,5 @@ $(document).ready(function(){
 		});
 	});
 });
+
+console.log(listOfNamedays);

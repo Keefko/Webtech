@@ -8,10 +8,12 @@
 }
 
 
-html, body {
+body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #151515 !important;
   font-weight: 400;
   font-size: 16px;
+  color: white;
 }
 
 
@@ -52,11 +54,11 @@ img {
 }
 
 
-
+/* Navigation Bar */
 #mainNav {
   top:0;
   position: fixed;
-  height: 60px;
+  height: 70px;
   background-color: #151515;
 }
 
@@ -71,6 +73,11 @@ img {
   color: #86C232;
 }
 
+.navbar-toggler .navbar-toggler-icon { 
+  background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(71, 75, 79, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); } 
+
+.navbar-toggler .navbar-toggler-icon:hover { 
+  background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(134, 194, 50, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); } 
 
 
 #mainNav .navbar-brand {
@@ -87,8 +94,11 @@ img {
   outline: none;
 }
 
+.close {
+ display: none;
+}
 
-
+/* Main page */ 
 .masthead {
   margin-top:60px;
   background: url(img/mainpage-header.jpg);
@@ -117,4 +127,35 @@ img {
 .masthead .masthead-text p {
   padding-top: 20px;
   font-size: 18px;
+}
+
+
+
+
+/* tasks page */ 
+
+.tasks-masthead{
+  margin-top:60px;
+  background: url(img/task-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.tasks-masthead h1{
+  padding-top: 150px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #86C232;
+}
+
+#tasks{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#tasks ul li {
+  color: #474B4F;
 }
