@@ -15,6 +15,7 @@ class Nameday {
 var listOfNamedays = new Array();
 
 
+
 $(document).ready(function(){
 	$.getJSON('meniny.json', function(data){
 		$.each(data.meniny.zaznam,function(i,val){

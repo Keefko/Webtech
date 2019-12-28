@@ -54,24 +54,20 @@ img {
 }
 
 
+
+
+
 /* Navigation Bar */
 #mainNav {
   top:0;
   position: fixed;
-  height: 70px;
   background-color: #151515;
 }
 
-
-#mainNav .navbar-nav > li.nav-item > a {
-  color: white;
-  letter-spacing: 1px;
+.navbar {
+  min-height: 70px;
 }
 
-
-#mainNav .navbar-nav > li.nav-item > a:hover {
-  color: #86C232;
-}
 
 .navbar-toggler .navbar-toggler-icon { 
   background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(71, 75, 79, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); } 
@@ -94,13 +90,31 @@ img {
   outline: none;
 }
 
-.navbar-toggler>.close {
-    display:inline;
-    color: #474B4F;
-    text-shadow: none;
+
+#mainNav .navbar-nav > li.nav-item > a {
+  color: white;
+  letter-spacing: 1px;
 }
-.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
-    display:none;
+
+
+#mainNav .navbar-nav > li.nav-item > a:hover {
+  color: #86C232;
+}
+
+
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+
+  #mainNav .navbar-brand {
+    padding: 10px 20px;
+  }
 }
 
 /* Main page */ 
@@ -111,7 +125,7 @@ img {
   background-position: center;
   background-size: cover;
   width: 100%;
-  min-height: 700px;
+  min-height: 690px;
 }
 
 .masthead .masthead-text{
@@ -123,7 +137,6 @@ img {
 .masthead .masthead-heading {
   padding-top: 150px;
   color: #86C232;
-  font-size: 2.75rem;
   line-height: 2.75rem;
   font-size: 60px;
   font-weight: 700;
@@ -135,7 +148,42 @@ img {
 }
 
 
+@media (min-width: 760px) and (max-width: 1025px){
 
+  .masthead {
+    margin-top: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px ){
+   .masthead { 
+    margin-top:0px;
+   }
+
+
+   .masthead .masthead-heading {
+    padding-top: 180px;
+    line-height: 60px;
+   }
+
+   .masthead .masthead-text {
+    text-align: center;
+    float: none;
+    padding-left: 0;
+   }
+
+   .masthead .masthead-text p {
+    padding-top: 5px;
+    font-size: 12px;
+   }
+
+
+   .tasks-masthead h1 {
+      font-size: 30px;
+   }
+}
 
 /* tasks page */ 
 
