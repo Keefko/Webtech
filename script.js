@@ -14,11 +14,6 @@ class Nameday {
 
 var listOfNamedays = new Array();
 
-$(document).ready(function(){
-	$('.navbar-nav > .navbar-toggler-icon').on('click', function(){
-		alert("pičo");
-	});
-});
 
 $(document).ready(function(){
 	$.getJSON('meniny.json', function(data){
@@ -28,3 +23,5 @@ $(document).ready(function(){
 		});
 	});
 });
+
+console.log(listOfNamedays);
