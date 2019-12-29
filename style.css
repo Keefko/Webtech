@@ -185,25 +185,34 @@ img {
    }
 }
 
-/* tasks page */ 
 
-.tasks-masthead{
+/*headers */ 
+.submasthead{
   margin-top:60px;
-  background: url(img/task-header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 
-.tasks-masthead h1{
+ 
+.tasks-masthead{
+  background: url(img/task-header.jpg);
+}
+.cross-masthead{
+  background: url(img/cross-header.jpg);
+}
+
+.tasks-masthead h1,
+.cross-masthead h1{
   padding-top: 150px;
   text-transform: uppercase;
   font-weight: 700;
   color: #86C232;
 }
 
+/* tasks page */
 #tasks{
   padding-top: 40px;
   padding-bottom: 20px;
@@ -213,3 +222,15 @@ img {
   color: #474B4F;
 }
 
+/* križovatky */ 
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 600px;
+    background-color: #f1f1f1;
+}
