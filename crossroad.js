@@ -8,6 +8,7 @@ window.onload = function(){
 	let road = new Image;
 	road.src = "img/road.png";
 	road.onload = function(){
+		ctx.imageSmoothingQuality = 'high';
 		ctx.drawImage(road,0,50,300,120);
 	}
 
@@ -15,6 +16,7 @@ window.onload = function(){
 	let greenCar = new Image;
 	greenCar.src = "img/greencar.png";
 	greenCar.onload = function(){
+		ctx.imageSmoothingQuality = 'high';
 		ctx.drawImage(greenCar,95,75,25,20);
 	}
 
@@ -22,22 +24,43 @@ window.onload = function(){
 	let blueCar = new Image;
 	blueCar.src = "img/bluecar.png";
 	blueCar.onload = function(){
+		ctx.imageSmoothingQuality = 'high';
 		ctx.drawImage(blueCar,155,90,20,20);
 	}
 
 	let redCar = new Image;
 	redCar.src = "img/redcar.png";
 	redCar.onload = function(){
+		ctx.imageSmoothingQuality = 'high';
 		ctx.drawImage(redCar,190,53,25,20);
 	}
 
 }
 
-function move(e){
-	console.log(e);
+function animate(car){
+	requestAnimationFrame(animate);
+	if(car == "redCar"){
+
+	}else if(car == "greenCar"){
+
+	}else {
+
+	}
+
 }
+
+function update(){
+
+}
+
+function clickOnCar(x,y){
+
+}
+
+
 $(document).ready(function(){
-	$("#canvas").mousedown(function(e){
-	move(e);
+	$("#canvas").mousedown(function(event){
+		console.log(event.clientX,event.clientY);
+		console.log(clickOnCar(event.clientX, event.clientY));
 	});	
 });
