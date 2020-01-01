@@ -1,66 +1,85 @@
-var road,road2;
-var redCar,greenCar,blueCar;
-var canvas,context;
+var canvas = document.getElementById("canvas");
+canvas.width = 1000;
+canvas.height = 500;
+var context = canvas.getContext("2d");
+var rectRed,rectBlue,rectGreen
+
 window.onload = function(){
-	canvas = document.getElementById("canvas");
-	ctx = canvas.getContext('2d');
-
-	let road = new Image;
-	road.src = "img/road.png";
+	
+	rectRed = new rect(630,110,98,56,false);
+	rectBlue = new rect(540,240,44,108,false);
+	rectGreen = new rect(310,190,102,53,true);
+	
+	var road = new Image();
 	road.onload = function(){
-		ctx.imageSmoothingQuality = 'high';
-		ctx.drawImage(road,0,50,300,120);
+		context.drawImage(road,0,100,1000,400);
 	}
+	road.src = "img/road.png";
+	
 
-
-	let greenCar = new Image;
-	greenCar.src = "img/greencar.png";
-	greenCar.onload = function(){
-		ctx.imageSmoothingQuality = 'high';
-		ctx.drawImage(greenCar,95,75,25,20);
-	}
-
-
-	let blueCar = new Image;
-	blueCar.src = "img/bluecar.png";
+	var blueCar = new Image();
 	blueCar.onload = function(){
-		ctx.imageSmoothingQuality = 'high';
-		ctx.drawImage(blueCar,155,90,20,20);
+		context.drawImage(blueCar,540,240,44,108);
 	}
+	blueCar.src = "img/bluecar.png";
 
-	let redCar = new Image;
-	redCar.src = "img/redcar.png";
+	var redCar = new Image();
 	redCar.onload = function(){
-		ctx.imageSmoothingQuality = 'high';
-		ctx.drawImage(redCar,190,53,25,20);
+		context.drawImage(redCar,630,110,98,56);
 	}
-
-}
-
-function animate(car){
-	requestAnimationFrame(animate);
-	if(car == "redCar"){
-
-	}else if(car == "greenCar"){
-
-	}else {
-
+	redCar.src = "img/redcar.png";
+	
+	var greenCar = new Image();
+	greenCar.onload = function(){
+		context.drawImage(greenCar,310,190,102,53);
 	}
+	greenCar.src = "img/greencar.png";
+	
+	var stopSign = new Image();
+	stopSign.onload = function(){
+	
+	}
+}
+
+function rect(x,y,width,height,status){
+	this.x = x;
+	this.y = y;
+	this.width = width;
+	this.height = height;
+	context.fillRect(this.x,this.y,this.width,this.height);
+	this.status = status;
+	this.contains = function(x,y){
+		if(this.x <= x && x <= this.x + this.width && this.y <= y && y <= this.y + this.height){
+			return true;
+		}
+	}
+}
+
+function getMousePosition(e){
+	var rect = canvas.getBoundingClientRect();
+
+	return{ 
+		x: e.clientX - rect.left,
+		y: e.clientY - rect.top
+	};
 
 }
 
-function update(){
-
-}
-
-function clickOnCar(x,y){
+function rule(){
 
 }
 
 
 $(document).ready(function(){
-	$("#canvas").mousedown(function(event){
-		console.log(event.clientX,event.clientY);
-		console.log(clickOnCar(event.clientX, event.clientY));
-	});	
-});
+	$("#canvas").on('click',function(e){
+		var pos = getMousePosition(e);
+
+		if(rectBlue.contains(pos.x,pos.y)){
+			alert("fuck yuu");
+		}else if(rectRed.contains(pos.x,pos.y)){
+			alert("red");
+		}else if(rectGreen.contains(pos.x,pos.y)){
+			alert("green");
+		}
+	});
+});  
