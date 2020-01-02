@@ -37,8 +37,16 @@ window.onload = function(){
 	
 	var stopSign = new Image();
 	stopSign.onload = function(){
-	
+		context.drawImage(stopSign,580,230,30,30);
 	}
+	stopSign.src = "img/stop.png";
+
+	var mainSign = new Image();
+	mainSign.onload = function(){
+		context.drawImage(mainSign,610,90,30,30);
+		context.drawImage(mainSign,390,230,30,30);
+	}
+	mainSign.src = "img/main.png";
 }
 
 function rect(x,y,width,height,status){
