@@ -242,3 +242,12 @@ canvas, img {
     image-rendering: optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
+.hide{
+ display: none; 
+}
+
+.center {
+  padding-top: 20px;
+  text-align: center;
+}
