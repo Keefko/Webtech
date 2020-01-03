@@ -1,28 +1,91 @@
 var canvas = document.getElementById("canvas");
+var canvas2 = document.getElementById("canvas-2");
 canvas.width = 1000;
 canvas.height = 500;
 var context = canvas.getContext("2d");
-var rectRed,rectBlue,rectGreen;
-var redCar,blueCar, greenCar, road;
-var redCarSprites, blueCarSprites, greenCarSprites; 
+var isRedActive = false; isBlueActive = false; isGreenActive = false;
+var isBlueReady = false, isRedReady = false, isGreenReady = true;
+var w = window;
+requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
 
-var isRedActive = true; isBlueActive = true; isGreenActive = true;
+
+var road = new Image();
+road.onload = function(){
+}
+road.src = "img/road.png";
+
+	
+var redCar = new Image();
+redCar.onload = function(){
+	carRed = new car(630,110,98,56,11);
+	isRedActive = true;
+}	
+redCar.src = "img/redcar.png";
+
+
+var blueCar = new Image();
+blueCar.onload = function(){
+	carBlue = new car(540,240,44,108,9);
+	isBlueActive = true;
+}
+blueCar.src = "img/bluecar.png";
+	
+
+var greenCar = new Image();
+greenCar.onload = function(){
+	carGreen = new car(310,190,102,53,6);
+	isGreenActive = true;
+}
+greenCar.src = "img/greencar.png";
+
+
+var stopSign = new Image();
+stopSign.onload = function(){
+	
+}
+stopSign.src = "img/stop.png";
+
+var mainSign = new Image();
+mainSign.onload = function(){
+}
+mainSign.src = "img/main.png";
+
+var greenCarSprites = new Image();
+greenCarSprites.onload = function(){}
+greenCarSprites.src = "img/greencarsprites.png"; 
+
+var blueCarSprites = new Image();
+blueCarSprites.onload = function(){}
+blueCarSprites.src = "img/bluecarsprites.png";
+
+var redCarSprites = new Image();
+redCarSprites.onload = function(){}
+redCarSprites.src = "img/redcarsprites.png";
+
+var blinker = new Image();
+blinker.onload = function(){}
+blinker.src = "img/blink.png";
 
 window.onload = function(){
 	draw();
 }
 
-function rect(x,y,width,height,status){
+function car(x,y,width,height,frame){
 	this.x = x;
 	this.y = y;
 	this.width = width;
 	this.height = height;
-	context.fillRect(this.x,this.y,this.width,this.height);
-	this.status = status;
+	this.frame = frame;
+
 	this.contains = function(x,y){
 		if(this.x <= x && x <= this.x + this.width && this.y <= y && y <= this.y + this.height){
 			return true;
 		}
+	}
+
+	this.newPos = function(moveX, moveY){
+		this.x += moveX;
+		this.y += moveY;
 	}
 }
 
@@ -36,169 +99,109 @@ function getMousePosition(e){
 
 }
 
-function update(type){
-	switch(type){
-		case "blue" : 
-			blueCarMove();
-			break;
-		case "red" : 
-			redCarMove();
-			break;
-
-		case "green" : 
-			greenCarMove();
-			break;
-	}
-}
-
 function draw(){	
-	road = new Image();
-	road.onload = function(){
-		context.drawImage(road,0,100,1000,400);
-	}
-	road.src = "img/road.png";
-	
-	if(isRedActive == true){
-		rectRed = new rect(630,110,98,56,false);
-		redCar = new Image();
-		redCar.onload = function(){
-			context.drawImage(redCar,630,110,98,56);
-		}		
-		redCar.src = "img/redcar.png";
+	context.drawImage(road,0,100,1000,400);
+
+	if(isRedActive){
+		context.drawImage(redCar,630,110,98,56);
 	}
 
 	if(isBlueActive == true){
-		rectBlue = new rect(540,240,44,108,false);
-		blueCar = new Image();
-		blueCar.onload = function(){
-			context.drawImage(blueCar,540,240,44,108);
-		}
-		blueCar.src = "img/bluecar.png";
+		context.drawImage(blueCar,540,240,44,108);
 	}
 
 	if(isGreenActive == true){
-		rectGreen = new rect(310,190,102,53,true);	
-		greenCar = new Image();
-		greenCar.onload = function(){
-			context.drawImage(greenCar,310,190,102,53);
-		}
-		greenCar.src = "img/greencar.png";
+		context.drawImage(greenCar,310,190,102,53);
 	}
-	
-	var stopSign = new Image();
-	stopSign.onload = function(){
-		context.drawImage(stopSign,580,230,30,30);
-	}
-	stopSign.src = "img/stop.png";
 
-	var mainSign = new Image();
-	mainSign.onload = function(){
-		context.drawImage(mainSign,610,90,30,30);
-		context.drawImage(mainSign,390,230,30,30);
-	}
-	mainSign.src = "img/main.png";
-
+	context.drawImage(stopSign,580,230,30,30);
+	context.drawImage(mainSign,610,90,30,30);
+	context.drawImage(mainSign,390,230,30,30);
 }
 
 
 function greenCarMove(){
-	greenCarSprites = new Image();
-	greenCarSprites.onload = function(){
-		var frames = 6; 
-		var number = 0; 
-		var width = greenCarSprites.width;
-		var height = greenCarSprites.height;
-		var carWidth = width / frames;
-		var moveX = 80; 
-		var posX = 310;
+	var number = 0; 
+	var interval = setInterval(function(){
+		context.clearRect(0,0,canvas.width,canvas.height);
 		draw();
-		setInterval(function(){
-			//context.clearRect(0,0,canvas.width,canvas.height);
-			number++;
-			number = number % frames;
-			posX += moveX;
-			context.drawImage(greenCarSprites,number*carWidth,0,carWidth,height,posX,190,carWidth,height);
-		},50);
-	
-	}
-	greenCarSprites.src = "img/greencarsprites.png";
-	
+		number++;
+		number = number % carGreen.frame;
+		context.drawImage(greenCarSprites,number*carGreen.width,0,carGreen.width,carGreen.height,carGreen.x,carGreen.y,carGreen.width,carGreen.height);
+		carGreen.newPos(40,0);
+	},200);
+} 
+
+
+//na kokot 
+function blueCarMove(){ 
+	var number = 0; 
+	var interval = setInterval(function(){
+		context.clearRect(0,0,canvas.width,canvas.height);
+		draw();
+		number++;
+		number = number % carBlue.frame;
+		context.drawImage(blueCarSprites,number*carBlue.width,0,carBlue.width,carBlue.height,carBlue.x,carBlue.y,carBlue.width,carBlue.height);
+		carBlue.newPos(0,0);
+	},400);
 }
 
-function blueCarMove(){
-
-	blueCarSprites = new Image();
-	blueCarSprites.onload = function(){
-		var frames = 9; 
-		var number = 0; 
-		var width = blueCarSprites.width;
-		var height = blueCarSprites.height;
-		var carWidth = width / frames;
-
-		setInterval(function(){
-			context.clearRect(0,0,canvas.width,canvas.height);
-			number++;
-			number = number % 9;
-			context.drawImage(blueCarSprites,number*carWidth,0,carWidth,height,540,240,carWidth,height);
-		},400);
-	}
-
-	blueCarSprites.src = "img/bluecarsprites.png";
-}
-
+// totalne napiču 
 function redCarMove(){
-	redCarSprites = new Image();
-	redCarSprites.onload = function(){
-
-		var frames = 11; 
-		var number = 11; 
-		var width = redCarSprites.width;
-		var height = redCarSprites.height;
-		var carWidth = width / frames;
-
-		setInterval(function(){
-			number--;
-			number = number % frames;
-			context.drawImage(redCarSprites,number*carWidth,0,carWidth,height,630,110,carWidth,height);
-			if(number < 0){
-				number = 11;
-			}
-		},400);
-	}
-
-	redCarSprites.src = "img/redcarsprites.png";
+	var number = 0; 
+	var row = 0; 
+	var interval =setInterval(function(){
+		context.clearRect(0,0,canvas.width,canvas.height);
+		draw();
+		number++;
+		number = number % carRed.frame;
+		if(number% carRed.frame == 4 ){
+			row++
+		}
+		context.drawImage(redCarSprites,number*carRed.width,row*carRed.height,carRed.width,carRed.height,carRed.x,carRed.y,carRed.width,carRed.height);
+	},400);
 }
 
 
-	
+
+function condition(type,rectReady){
+	if(rectReady){
+		update(type);
+	}else{
+		console.log(rect + " " + "Nie je na rade");
+	}
+}
+
+function update(type){
+	switch(type){
+		case "blue" : 
+			isBlueActive= false;
+			blueCarMove();
+			break;
+		case "red" : 
+			isRedActive = false;
+			redCarMove();
+			isBlueReady = true;
+			break;
+		case "green" : 
+			isGreenActive = false;
+			greenCarMove();
+			isRedReady = true;
+			break;
+	}
+}
 
 
 
 $(document).ready(function(){
 	$("#canvas").on('click',function(e){
 		var pos = getMousePosition(e);
-		console.log(pos);
-		if(rectBlue.contains(pos.x,pos.y)){
-			if(rectBlue.status){
-				isBlueActive = false;
-				greenCarMove();
-			} else{
-				console.log("blue cannot");
-			}
-		}else if(rectRed.contains(pos.x,pos.y)){
-			if(rectRed.status){
-				isBlueActive = false;
-				blueCarMove();
-			}else {
-				console.log("red cannot");
-			}
-		}else if(rectGreen.contains(pos.x,pos.y)){
-			if(rectGreen.status){	
-				isGreenActive = false;
-				greenCarMove();
-			} else {
-				console.log("blue cannot");
-			}
+		if(carBlue.contains(pos.x,pos.y)){
+			condition("blue",isBlueReady);
+		}else if(carRed.contains(pos.x,pos.y)){
+			condition("red",isRedReady);
+		}else if(carGreen.contains(pos.x,pos.y)){
+			condition("green",isGreenReady);
 		}
 	});
 });  
