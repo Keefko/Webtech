@@ -2,32 +2,65 @@ var canvas = document.getElementById("canvas");
 canvas.width = 1000;
 canvas.height = 500;
 var context = canvas.getContext("2d");
-
-
 var isRedActive = false; isBlueActive = false; isGreenActive = false;
 var isBlueReady = false, isRedReady = false, isGreenReady = true;
-
 var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
                             window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
 var cancelAnimationFrame = window.cancelAnimationFrame || window.mozCancelAnimationFrame;
 
-var carRedStartX = 610;
-var carRedStartY = 180; 
+var carRedStartX = 750;
+var carRedStartY = 290; 
 var carBlueStartX =530 ; 
 var carBlueStartY = 280; 
 var carGreenStartX = 350; 
 var carGreenStartY = 235; 
 var greenID,redID,blueID;
-var isRoadFree = true;		
+var isRoadFree = true;	
 var flag = false;		
 var counter =0;
-
+var lightsOnGreenCar = true;
+var lightsOnBlueCar = false;
+var lightsOnRedCar = false;
 
 var road = new Image();
 road.onload = function(){
 }
 road.src = "img/crossroad2.png";
+
+var redLight = new Image();
+redLight.onload = function(){
+
+}
+redLight.src = "img/redlight.png";
+
+var redLight2 = new Image();
+redLight2.onload = function(){
+
+}
+redLight2.src = "img/redlight2.png";
+
+var greenLight = new Image();
+greenLight.onload = function(){
+}
+greenLight.src = "img/greenlight.png";
+
+var greenLight2 = new Image();
+greenLight2.onload = function(){
+}
+greenLight2.src = "img/greenlight2.png";
+
+
+var redLightW = new Image();
+redLightW.onload = function(){
+
+}
+redLightW.src = "img/redlightW.png";
+
+var greenLightW = new Image();
+greenLightW.onload = function(){
+}
+greenLightW.src = "img/greenlightW.png";
 
 
 var greenCarSprites = new Image();
@@ -46,15 +79,15 @@ blueCarSprites.src = "img/bluecarsprites.png";
 
 var redCarSprites = new Image();
 redCarSprites.onload = function(){
-	carRed = new car(carRedStartX,carRedStartY,98,98);
+	carRed = new car(carRedStartX,carRedStartY,127,127);
 	isRedActive = true;
 }
-redCarSprites.src = "img/redcarsprites.png";
+redCarSprites.src = "img/walker.png";
+
 
 window.onload = function(){
 	draw();
 }
-
 
 function car(x,y,width,height){
 	this.x = x;
@@ -78,24 +111,6 @@ function car(x,y,width,height){
 	}
 }
 
-
-function draw(){	
-	context.drawImage(road,0,0,1000,500);
-
-	if(isRedActive == true){
-		context.drawImage(redCarSprites,3*carRed.width,0,carRed.width,carRed.height,carRed.x,carRed.y,carRed.width,carRed.height);
-	}
-
-	if(isBlueActive == true){
-		context.drawImage(blueCarSprites,3*carBlue.width,0,carBlue.width,carBlue.height,carBlue.x,carBlue.y,carBlue.width,carBlue.height);
-	}
-
-	if(isGreenActive == true){
-		context.drawImage(greenCarSprites,0,0,carGreen.width,carGreen.height,carGreen.x,carGreen.y,carGreen.width,carGreen.height);
-	}
-}
-
-
 function getMousePosition(e){
 	var rect = canvas.getBoundingClientRect();
 
@@ -104,6 +119,41 @@ function getMousePosition(e){
 		y: e.clientY - rect.top
 	};
 
+}
+
+function draw(){	
+	context.drawImage(road,0,0,1000,500);
+
+	if(isRedActive == true){
+		context.drawImage(redCarSprites,0,0,carRed.width,carRed.height,carRed.x,carRed.y,carRed.width/2,carRed.height/2);
+	}
+
+	if(isBlueActive == true){
+		context.drawImage(blueCarSprites,0,0,carBlue.width,carBlue.height,carBlue.x,carBlue.y,carBlue.width,carBlue.height);
+	}
+
+	if(isGreenActive == true){
+		context.drawImage(greenCarSprites,0,0,carGreen.width,carGreen.height,carGreen.x,carGreen.y,carGreen.width,carGreen.height);
+	}
+
+	if(lightsOnBlueCar){
+		context.drawImage(greenLight2,630,300,30,50);
+	}else {
+		context.drawImage(redLight,630,300,30,50);
+	}
+
+	if(lightsOnRedCar){
+		context.drawImage(greenLightW,690,155,30,50);
+	}else{
+		context.drawImage(redLightW,690,155,30,50);
+	}
+
+
+	if(lightsOnGreenCar){
+		context.drawImage(greenLight,375,300,50,30);
+	}else{
+		context.drawImage(redLight2,375,300,50,30);
+	}
 }
 
 
@@ -129,14 +179,23 @@ function greenCarMove(){
 		counter = 0; 
 		cancelAnimationFrame(greenID);
 		isRoadFree = true;
+		lightsOnGreenCar = false;
+		lightsOnBlueCar = true;
+		context.clearRect(0,0,canvas.width,canvas.height);
+		draw();
 		if(flag){
-			flag = false;
+			update("blue");
 		}else{
 			rightOrder();
 		}
 		return;
 	}
 }
+
+const cycleLoopBlue = [0,1,2,3,4,5];
+let currentLoopIndexBlue = 0; 
+let currentDirectionBlue = 0;
+
 
 var fpsB = 24; 
 var nowB,deltaB;
@@ -151,8 +210,26 @@ function blueCarMove(){
 		if(deltaB > intervalB){
 			context.clearRect(0,0,canvas.width,canvas.height);
 			draw();
-			context.drawImage(blueCarSprites,3*carBlue.width,0,carBlue.width,carBlue.height,carBlue.x,carBlue.y,carBlue.width,carBlue.height);
-			carBlue.newPos(0,-10);
+			context.drawImage(blueCarSprites,cycleLoopBlue[currentLoopIndexBlue] * carBlue.width,currentDirectionBlue*carBlue.height,carBlue.width,carBlue.height,carBlue.x,carBlue.y,carBlue.width,carBlue.height);
+			
+			if(currentDirectionBlue == 0){
+				carBlue.newPos(0,-3);
+			} else if(currentDirectionBlue == 1){
+				carBlue.newPos(1,-5);
+			} else if(currentDirectionBlue == 2){
+				carBlue.newPos(6,-3);
+			} else if(currentDirectionBlue == 3){
+				carBlue.newPos(6,-1);
+			} else if(currentDirectionBlue == 4 || currentDirectionBlue == 5){
+				carBlue.newPos(20,0);
+			}
+
+			currentLoopIndexBlue++;
+			if(currentLoopIndexBlue >= cycleLoopBlue.length){
+				currentLoopIndexBlue = 0;
+				currentDirectionBlue++; 
+
+			}
 			thenB = nowB - (deltaB % intervalB);
 		}
 		counter++;
@@ -160,8 +237,12 @@ function blueCarMove(){
 		counter = 0; 
 		cancelAnimationFrame(blueID);
 		isRoadFree = true;
+		lightsOnBlueCar = false;
+		lightsOnRedCar = true;
+		context.clearRect(0,0,canvas.width,canvas.height);
+		draw();
 		if(flag){
-			update("green");
+			update("red");
 		}else{
 		    rightOrder();
 		}
@@ -171,22 +252,31 @@ function blueCarMove(){
 
 /*https://dev.to/martyhimmel/animating-sprite-sheets-with-javascript-ag3*/
 
+
+const cycleLoopRed = [0,1,2,3,4];
+let currentLoopIndexRed = 0; 
+let currentDirectionRed = 0; 
 var now,delta;
-var fps = 22; 
+var fps = 15; 
 var then = Date.now();
 var interval = 1000/fps;
 
 function redCarMove(){
 
-	if(counter < 200){
+	if(counter < 150){
 		requestAnimationFrame(redCarMove);
 		now = Date.now();
 		delta = now - then;
 		if(delta > interval){
 			context.clearRect(0,0,canvas.width,canvas.height);
 			draw();
-			context.drawImage(redCarSprites,3*carRed.width,0,carRed.width,carRed.height,carRed.x,carRed.y,carRed.width,carRed.height);
-			carRed.newPos(-10,0);
+			context.drawImage(redCarSprites,cycleLoopRed[currentLoopIndexRed] * carRed.width,currentDirectionRed * carRed.height,carRed.width,carRed.height,carRed.x,carRed.y,carRed.width/2,carRed.height/2);
+			carRed.newPos(0,-18);
+			currentLoopIndexRed++;
+			if(currentLoopIndexRed >= cycleLoopRed.length){
+				currentLoopIndexRed = 0; 
+				currentDirectionRed++;
+			}
 			then = now - (delta%interval);
 		}
 		counter++;
@@ -196,7 +286,7 @@ function redCarMove(){
 		cancelAnimationFrame(redID);
 		isRoadFree =true;
 		if(flag){
-			update("blue");
+			flag = false;
 		}else {
 		   rightOrder();
 		}
@@ -295,14 +385,14 @@ function resetCrossroad(){
 function simulation(){
 	resetCrossroad();
 	flag=true;
-	update("red");
+	update("green");
 
 }
 
 
 function rightOrder(){
 	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
-		if(carGreen.id == 3 && carRed.id == 1 && carBlue.id == 2){
+		if(carGreen.id == 1 && carRed.id == 3 && carBlue.id == 2){
 			alert("Križovatka bola vyplnená správne");
 		} else {
 			alert("Križovatka bola vyplenena nespravne skuste ešte raz");

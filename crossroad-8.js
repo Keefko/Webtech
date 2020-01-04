@@ -354,9 +354,7 @@ function simulation(){
 
 function rightOrder(){
 	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
-		console.log(carGreen.id);
-		console.log(carRed.id);
-		console.log(carBlue.id);
+
 		if(carGreen.id == 1 && carRed.id == 2 && carBlue.id == 3){
 			alert("Križovatka bola vyplnená správne");
 		} else {
