@@ -263,7 +263,7 @@ var interval = 1000/fps;
 
 function redCarMove(){
 
-	if(counter < 150){
+	if(counter < 60){
 		requestAnimationFrame(redCarMove);
 		now = Date.now();
 		delta = now - then;
@@ -377,6 +377,10 @@ function resetCrossroad(){
 	carRed.y = carRedStartY;
 	carBlue.x = carBlueStartX;
 	carBlue.y = carBlueStartY;
+
+	lightsOnGreenCar = true;
+	lightsOnBlueCar = false;
+	lightsOnRedCar = false;
 
 	draw();
 }

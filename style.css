@@ -204,8 +204,14 @@ img {
   background: url(img/cross-header.jpg);
 }
 
+.calendar-masthead{
+  background: url(img/calendar-header.png);
+  background-position: top center;
+}
+
 .tasks-masthead h1,
-.cross-masthead h1{
+.cross-masthead h1,
+.calendar-masthead h1{
   padding-top: 150px;
   text-transform: uppercase;
   font-weight: 700;
@@ -236,10 +242,11 @@ canvas {
 }
 
 
-#actionArea{
+#cSection {
+  padding-top: 40px;
+}
 
-    background-color: darkgray;
-    padding-top: 5%;
+#actionArea{
     padding-bottom: 2%;
     padding-right: 2%;
     padding-left: 2%;
@@ -254,35 +261,44 @@ canvas {
 
 #cNewSearchButton {
     color: white;
-    background-color: #3e3e3e;
+    background-color: #474B4F;
     border-color: #474B4F;
 }
 #cNewSearchButton:hover{
     color: white;
-    background-color: rgba(116, 115, 107, 0.52);
-    border-color: #697174;
+    background-color: #86C232;
+    border-color: #86C232;
 }
 
 #cButtonSearch{
     color: white;
-    background-color: dimgrey;
+    background-color: #474B4F;
     border-color: #474B4F;
 }
 #cButtonSearch:hover{
     color: white;
-    background-color: rgba(68, 67, 59, 0.52);
-    border-color: #697174;
+    background-color: #86C232;
+    border-color: #86C232;
 
 }
 .calendarText{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 20px;
+}
 
-    color: #151515;
+.calendarText span {
+  padding-left: 10px;
+  color: #86C232;
 }
 
 .calendarSmallerText{
-
-    color: #151515;
+    color: white;
     padding: 0.3%;
+}
+
+label {
+  color: white;
 }
 
 #cResultDiv{
