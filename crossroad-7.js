@@ -142,7 +142,7 @@ function draw(){
 		context.drawImage(redLight,630,300,30,50);
 	}
 
-	if(lightsOnRedCar){
+	if(lightsOnRedCar && isGreenActive == false){
 		context.drawImage(greenLightW,690,155,30,50);
 	}else{
 		context.drawImage(redLightW,690,155,30,50);
