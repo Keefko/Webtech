@@ -369,3 +369,11 @@ canvas, img {
 #crossroad ul li a.active{
   background-color: #86C232;
 }
+
+#vysvetlenie{
+  padding-left: 50px;
+}
+
+#vysvetlenie .cross-text{
+    color: #474B4F;
+}
