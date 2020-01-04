@@ -262,24 +262,19 @@ canvas {
 #cNewSearchButton {
     color: white;
     background-color: #474B4F;
-    border-color: #474B4F;
 }
 #cNewSearchButton:hover{
     color: white;
     background-color: #86C232;
-    border-color: #86C232;
 }
 
 #cButtonSearch{
     color: white;
     background-color: #474B4F;
-    border-color: #474B4F;
 }
 #cButtonSearch:hover{
     color: white;
     background-color: #86C232;
-    border-color: #86C232;
-
 }
 .calendarText{
     font-size: 28px;
@@ -333,13 +328,6 @@ label {
 }
 
 
-canvas, img {
-    image-rendering: optimizeQuality;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
-}
 
 .hide{
  display: none; 
@@ -376,4 +364,9 @@ canvas, img {
 
 #vysvetlenie .cross-text{
     color: #474B4F;
+}
+
+.visits {
+   color:white;
+   padding-bottom: 10px;
 }

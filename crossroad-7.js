@@ -382,6 +382,9 @@ function resetCrossroad(){
 	lightsOnBlueCar = false;
 	lightsOnRedCar = false;
 
+	carGreen.setID(-carGreen.id);
+	carRed.setID(-carRed.id);
+	carBlue.setID(-carBlue.id);
 	draw();
 }
 
@@ -396,6 +399,9 @@ function simulation(){
 
 function rightOrder(){
 	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
+		console.log(carGreen.id); //vypise 1
+		console.log(carBlue.id); //vypise 2 
+		console.log(carRed.id); //vypise 3
 		if(carGreen.id == 1 && carRed.id == 3 && carBlue.id == 2){
 			alert("Križovatka bola vyplnená správne");
 		} else {

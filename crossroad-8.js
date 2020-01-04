@@ -340,6 +340,10 @@ function resetCrossroad(){
 	carBlue.x = carBlueStartX;
 	carBlue.y = carBlueStartY;
 
+	carGreen.setID(-carGreen.id);
+	carRed.setID(-carRed.id);
+	carBlue.setID(-carBlue.id);
+
 	draw();
 }
 
