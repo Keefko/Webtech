@@ -235,10 +235,83 @@ canvas {
     background-color: #f1f1f1;
 }
 
-canvas, img {
-    image-rendering: optimizeQuality;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
+
+#actionArea{
+
+    background-color: darkgray;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#resultDiv{
+
+    background-color: rgba(105,113,116,0.89);
+    margin: 2%;
+    padding: 2%;
+}
+
+#cNewSearchButton {
+    color: white;
+    background-color: #3e3e3e;
+    border-color: #474B4F;
+}
+#cNewSearchButton:hover{
+    color: white;
+    background-color: rgba(116, 115, 107, 0.52);
+    border-color: #697174;
+}
+
+#cButtonSearch{
+    color: white;
+    background-color: dimgrey;
+    border-color: #474B4F;
+}
+#cButtonSearch:hover{
+    color: white;
+    background-color: rgba(68, 67, 59, 0.52);
+    border-color: #697174;
+
+}
+.calendarText{
+
+    color: #151515;
+}
+
+.calendarSmallerText{
+
+    color: #151515;
+    padding: 0.3%;
+}
+
+#cResultDiv{
+
+    display: none;
+}
+
+.popover {
+    border: 2px dotted red;
+    color: #000000;
+}
+
+
+.popover-header {
+    background-color: #000000;
+    color: #000000;
+    font-size: 28px;
+    text-align:center;
+    display: none;
+}
+
+
+.popover-body {
+    background-color: coral;
+    color: #ff301d;
+    padding: 25px;
+}
+
+
+.popover-arrow {
+    border-right-color: red !important;
 }
