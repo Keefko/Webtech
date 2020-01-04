@@ -251,3 +251,23 @@ canvas, img {
   padding-top: 20px;
   text-align: center;
 }
+#crossroad ul {
+  text-align: center;
+  padding-top: 40px;
+}
+#crossroad ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#crossroad ul li a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+#crossroad ul li a:hover,
+#crossroad ul li a.active{
+  background-color: #86C232;
+}

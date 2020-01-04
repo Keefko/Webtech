@@ -16,8 +16,8 @@ var carBlueStartY = 250;
 var carGreenStartX = 310; 
 var carGreenStartY = 187; 
 var greenID,redID,blueID;
-var isRoadFree = true;		//ci moze dalsie auto ist, aby neprerusilo ine auto
-var flag = false;			//ak je true, pustena je simulacia
+var isRoadFree = true;		
+var flag = false;		
 var counter =0;
 
 
@@ -123,7 +123,7 @@ var thenC = Date.now();
 var intervalC = 1000/fpsC;
 
 function greenCarMove(){
-	if(counter < 300){
+	if(counter < 190){
 		requestAnimationFrame(greenCarMove);
 		nowC = Date.now();
 		deltaC = nowC - thenC;
@@ -139,9 +139,10 @@ function greenCarMove(){
 		counter = 0; 
 		cancelAnimationFrame(greenID);
 		isRoadFree = true;
-		rightOrder();
 		if(flag){
 			update("red");
+		}else{
+			rightOrder();
 		}
 		return;
 	}
@@ -158,7 +159,7 @@ var thenB = Date.now();
 var intervalB = 1000/fpsB;
 
 function blueCarMove(){ 
-	if(counter < 200){
+	if(counter < 130){
 		requestAnimationFrame(blueCarMove);
 		nowB = Date.now();
 		deltaB = nowB - thenB;
@@ -191,9 +192,12 @@ function blueCarMove(){
 	} else {
 		counter = 0; 
 		cancelAnimationFrame(blueID);
-		rightOrder();
 		isRoadFree = true;
-		flag = false;
+		if(flag){
+			flag = false;
+		}else{
+		    rightOrder();
+		}
 		return;
 	}
 }
@@ -211,7 +215,7 @@ var interval = 1000/fps;
 
 function redCarMove(){
 
-	if(counter < 200){
+	if(counter < 130){
 		requestAnimationFrame(redCarMove);
 		now = Date.now();
 		delta = now - then;
@@ -243,9 +247,10 @@ function redCarMove(){
 		counter =0;
 		cancelAnimationFrame(redID);
 		isRoadFree =true;
-		rightOrder();
 		if(flag){
 			update("blue");
+		}else {
+		   rightOrder();
 		}
 	}
 	return;
@@ -304,7 +309,7 @@ $(document).ready(function(){
 
 
 function resetCrossroad(){
-
+	 countClicker = 1; 
 	 counter=0;
 	 isRoadFree=true;
 	 currentLoopIndexRed = 0;
@@ -348,11 +353,14 @@ function simulation(){
 
 
 function rightOrder(){
-	if(isRedActive == false && isBlueActive == false && isGreenActive){
+	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
+		console.log(carGreen.id);
+		console.log(carRed.id);
+		console.log(carBlue.id);
 		if(carGreen.id == 1 && carRed.id == 2 && carBlue.id == 3){
-			console.log("correct");
+			alert("Križovatka bola vyplnená správne");
 		} else {
-			console.log("incorrect");
+			alert("Križovatka bola vyplenena nespravne skuste ešte raz");
 		}
 	}
 }
