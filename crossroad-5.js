@@ -262,8 +262,8 @@ function simulation(){
 
 
 function rightOrder(){
-	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
-		if(carGreen.id == 3 && carRed.id == 1 && carBlue.id == 2){
+	if(isBlueActive == false && isGreenActive == false){
+		if(carGreen.id == 2 && carBlue.id == 1){
 			alert("Križovatka bola vyplnená správne");
 		} else {
 			alert("Križovatka bola vyplenena nespravne skuste ešte raz");

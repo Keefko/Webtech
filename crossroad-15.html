@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sk">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -77,20 +77,29 @@
             <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
         </div>
         <div id="vysvetlenie" class="collapse">
-            <p id="cross-1">
-                Prvé pojde modré, druhé zelené
-                <br /> Prečo?
-                <br /> Pretože modré auto sa riadi značkou hlavná cesta, s doplnkovou značkou vyznačenia vedľajšej cesty.
+            <p>Prvé pojde modré, druhé zelené</p>
+            <h5>Prečo?</h5>
+            <p class="cross-text">Pretože modré auto sa riadi značkou hlavná cesta, s doplnkovou značkou vyznačenia vedľajšej cesty.
                 <br /> Keď opustí modré auto križovatku, následne do nej vstúpi modré auto, ktoré vstupuje z vedľajšej cesty na hlavnú.
             </p>
         </div>
     </div>
 </section>
 
-<footer class="text-center">
-    <p>Created by Team34 - Némethy,Zbín,Kohout</p>
-</footer>
+<footer>
+    <div class="container text-center">
+        <script src="counters.js"></script>
+        <p>Created by Team34 - Némethy,Zbín,Kohout</p>
+        <div class="visits">Celkovo návštev :
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7177573&style=0007&nbdigits=5&type=page&initCount=0" title="Visits Count" Alt="analytics counter">
 
+            <br>
+            <script>
+                document.write("Bol si tu <b>" + amt() + " - krát.")
+            </script>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

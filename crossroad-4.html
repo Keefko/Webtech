@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sk">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,7 +53,7 @@
             <li><a href="crossroad.html">1</a></li>
             <li><a href="crossroad-2.html">2</a></li>
             <li><a href="crossroad-3.html">3</a></li>
-            <li><a href="crossroad-4.html"class="active">4</a></li>
+            <li><a href="crossroad-4.html" class="active">4</a></li>
             <li><a href="crossroad-5.html">5</a></li>
             <li><a href="crossroad-6.html">6</a></li>
             <li><a href="crossroad-7.html">7</a></li>
@@ -76,11 +76,13 @@
               <button class="btn btn btn-success text-center" onclick="simulation()">Spravne riešenie</button>
               <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
            </div>   
-           <div id="vysvetlenie" class="collapse">
-            <p>Prvé červené auto, druhé zelené a ako posledná pojde elektirčka.</p>
-            <h5>Prečo?</h5>
-            <p class="cross-text">Červné auto je na hlavnej ceste. Nemusí davať prednosť žiadnemu inému účastnikovi dopravnej premávky. Zelené auto aj elektirčka sú na vedlajšej ceste ale v tomto prípade platí pravidlo pravej ruky čo znamená, že elektirčka prejde cez križovatku ako poslendá.</p>
-     </div>
+            <div id="vysvetlenie" class="collapse">
+                   <p>Prvé pojde červene, druhé modre, tretie zelene</p>
+                    <h5>Prečo?</h5>
+                     <p class="cross-text">Pretože uplatnujeme pravidlo pravej ruky a tým pádom kedže cervene nema po pravdej ruke ziadne iné vozidlo tak má prednosť 
+                     <br /> Nasledne ked prejde červene križovatkou modre vozidlo získava prednosť rovnakým princípom prednosti pravej ruky. 
+                  </p>
+            </div>
     </div>
   </section>
 
@@ -92,7 +94,7 @@
           <img src="https://hitwebcounter.com/counter/counter.php?page=7177573&style=0007&nbdigits=5&type=page&initCount=0" title="Visits Count" Alt="analytics counter">
   
           <br>
-          <script LANGUAGE="JavaScript">
+          <script>
             document.write("Bol si tu <b>" + amt() + " - krát.")
           </script>
       </div>

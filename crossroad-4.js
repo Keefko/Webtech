@@ -350,7 +350,7 @@ function simulation(){
 function rightOrder(){
 	if(isRedActive == false && isBlueActive == false && isGreenActive == false){
 
-		if(carGreen.id == 1 && carRed.id == 2 && carBlue.id == 3){
+		if(carGreen.id == 2 && carRed.id == 1 && carBlue.id == 3){
 			alert("Križovatka bola vyplnená správne");
 		} else {
 			alert("Križovatka bola vyplenena nespravne skuste ešte raz");
