@@ -444,6 +444,7 @@ function resetCrossroad(){
 
 
 	 currentLoopIndexBlue =0;
+	 currentDirectionBlue=0;
 	 fpsB = 22;
 	 thenB = Date.now();
 	 intervalB = 1000/fpsB;
