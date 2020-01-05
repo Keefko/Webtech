@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Project Webtech</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">Tím 34</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="calendar.html">Kalendár</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="crossroad.html">Križovatky</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tasks.html">Rozdelenie úloh</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="submasthead cross-masthead text-center">
+    <h1>Križovatky</h1>
+</header>
+
+<section id="crossroad">
+    <div class="container">
+        <ul>
+            <li><a href="crossroad.html">1</a></li>
+            <li><a href="crossroad-2.html">2</a></li>
+            <li><a href="crossroad-3.html">3</a></li>
+            <li><a href="crossroad-4.html">4</a></li>
+            <li><a href="crossroad-5.html">5</a></li>
+            <li><a href="crossroad-6.html" >6</a></li>
+            <li><a href="crossroad-7.html">7</a></li>
+            <li><a href="crossroad-8.html">8</a></li>
+            <li><a href="crossroad-9.html">9</a></li>
+            <li><a href="crossroad-10.html">10</a></li>
+            <li><a href="crossroad-11.html" >11</a></li>
+            <li><a href="crossroad-14.html">12</a></li>
+            <li><a href="crossroad-13.html">13</a></li>
+            <li><a href="crossroad-14.html">14</a></li>
+            <li><a href="crossroad-15.html" class="active">15</a></li>
+            <li><a href="crossroad-navod.html">Návod</a></li>
+        </ul>
+
+        <canvas id="canvas">
+            <script src="crossroad-15.js"></script>
+        </canvas>
+        <div class="center">
+            <button data-toggle="collapse" class="btn btn-primary" data-target="#vysvetlenie">Vysvetlenie</button>
+            <button class="btn btn btn-success text-center" onclick="simulation()">Spravne riešenie</button>
+            <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
+        </div>
+        <div id="vysvetlenie" class="collapse">
+            <p id="cross-1">
+                Prvé pojde modré, druhé zelené
+                <br /> Prečo?
+                <br /> Pretože modré auto sa riadi značkou hlavná cesta, s doplnkovou značkou vyznačenia vedľajšej cesty.
+                <br /> Keď opustí modré auto križovatku, následne do nej vstúpi modré auto, ktoré vstupuje z vedľajšej cesty na hlavnú.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <p>Created by Team34 - Némethy,Zbín,Kohout</p>
+</footer>
+
+
+</body>
+</html>
