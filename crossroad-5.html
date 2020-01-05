@@ -50,11 +50,11 @@
   <section id="crossroad">
     <div class="container">
           <ul>
-            <li><a href="crossroad.html"  class="active">1</a></li>
+            <li><a href="crossroad.html">1</a></li>
             <li><a href="crossroad-2.html">2</a></li>
             <li><a href="crossroad-3.html">3</a></li>
             <li><a href="crossroad-4.html">4</a></li>
-            <li><a href="crossroad-5.html">5</a></li>
+            <li><a href="crossroad-5.html" class="active">5</a></li>
             <li><a href="crossroad-6.html">6</a></li>
             <li><a href="crossroad-7.html">7</a></li>
             <li><a href="crossroad-8.html">8</a></li>
@@ -69,22 +69,20 @@
           </ul>
 
            <canvas id="canvas">
-              <script src="crossroad-1.js"></script>
+              <script src="crossroad-5.js"></script>
             </canvas>
           <div class="center">
               <button data-toggle="collapse" class="btn btn-primary" data-target="#vysvetlenie">Vysvetlenie</button>
               <button class="btn btn btn-success text-center" onclick="simulation()">Spravne riešenie</button>
               <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
            </div>   
-            <div id="vysvetlenie" class="collapse">
-                   <p>Prvé pojde červene, druhé modre, tretie zelene</p>
-                   <h5>Prečo?</h5>
-                   <p class="cross-text">Pretože uplatnujeme pravidlo pravej ruky a tým pádom kedže cervene nema po pravdej ruke ziadne iné vozidlo tak má prednosť.Nasledne ked prejde červene križovatkou modre vozidlo získava prednosť rovnakým princípom prednosti pravej ruky. 
-                  </p>
-            </div>
+           <div id="vysvetlenie" class="collapse">
+            <p>Prvé modré auto, druhé zelené.</p>
+            <h5>Prečo?</h5>
+            <p class="cross-text">Zelené auto dáva prednosť modrému, kedže sa v tejto križovatke uprednostňuje pravidlo pravej ruky.</p>
+     </div>
     </div>
   </section>
-
 
   <footer>
     <div class="container text-center">
@@ -100,6 +98,7 @@
       </div>
         </div>
   </footer>
+
 
 </body>
 </html>
