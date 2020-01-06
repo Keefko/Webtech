@@ -17,6 +17,89 @@ body {
 }
 
 
+@media print {
+    .masthead-text{
+        position: absolute;
+        right: 200px;
+    }
+
+    .masthead-text p{
+        position: absolute;
+        right: 90px;
+        padding: 0;
+    }
+    #taskHead{
+        position: absolute!important;
+        top: 0!important;
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        margin: 0 auto!important;
+
+    }
+    #taskHead h1{
+        font-size: 36px;
+        left: 300px;
+        position: absolute;
+        top:0px!important;
+
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        margin: 0 auto!important;
+        display: block!important;
+
+    }
+    #tasks table{
+        position: absolute;
+        top: 160px!important;
+        padding: 0;
+        margin-top: 30px;
+        height: 200px !important;
+        max-height: 200px !important;
+
+    }
+    #tasksDownbar{
+        font-size: inherit;
+        position: absolute!important;
+        bottom: 0 !important;
+        display: block;
+    }
+
+
+    h1{
+        text-align: center !important;
+    }
+
+    button{
+        display: none!important;
+    }
+    ul{
+
+        display: none!important;
+    }
+    #cButtonSearch{
+        display: none;
+    }
+    #cNewSearchButton{
+        display: none;
+    }
+    #cCountrySelect{
+        display: none;
+    }
+    #cMeno{
+        display: none;
+    }
+    #cDatum{
+        display: none;
+    }
+    .noprint{
+        display: none !important;
+    }
+
+}
+
+
+
+
 h1,
 h2,
 h3,
@@ -26,7 +109,8 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   line-height: 1.3;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 a,
 a:active,
@@ -127,6 +211,8 @@ img {
   width: 100%;
   min-height: 690px;
 }
+
+
 
 .masthead .masthead-text{
   float: right;
@@ -276,6 +362,8 @@ canvas {
     color: white;
     background-color: #86C232;
 }
+
+
 .calendarText{
     font-size: 28px;
     color: white;
@@ -296,6 +384,7 @@ label {
   color: white;
 }
 
+
 #cResultDiv{
 
     display: none;
@@ -306,6 +395,15 @@ label {
     color: #000000;
 }
 
+@media print {
+    .popover{
+        display: none;
+    }
+    .popover{
+        display: none;
+    }
+
+}
 
 .popover-header {
     background-color: #000000;
@@ -371,3 +469,4 @@ label {
    color:white;
    padding-bottom: 10px;
 }
+
