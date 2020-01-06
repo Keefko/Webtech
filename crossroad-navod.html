@@ -60,28 +60,23 @@
             <li><a href="crossroad-8.html">8</a></li>
             <li><a href="crossroad-9.html">9</a></li>
             <li><a href="crossroad-10.html">10</a></li>
-            <li><a href="crossroad-11.html">11</a></li>
-            <li><a href="crossroad-12.html" >12</a></li>
+            <li><a href="crossroad-11.html" >11</a></li>
+            <li><a href="crossroad-12.html">12</a></li>
             <li><a href="crossroad-13.html">13</a></li>
-            <li><a href="crossroad-14.html" class="active">14</a></li>
-            <li><a href="crossroad-15.html">15</a></li>
-            <li><a href="crossroad-navod.html">Návod</a></li>
+            <li><a href="crossroad-14.html">14</a></li>
+            <li><a href="crossroad-15.html" >15</a></li>
+            <li><a href="crossroad-navod.html" class="active">Návod</a></li>
         </ul>
 
-        <canvas id="canvas">
-            <script src="crossroad-14.js"></script>
-        </canvas>
-        <div class="center">
-            <button data-toggle="collapse" class="btn btn-primary" data-target="#vysvetlenie">Vysvetlenie</button>
-            <button class="btn btn btn-success text-center" onclick="simulation()">Správne riešenie</button>
-            <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
-        </div>
-        <div id="vysvetlenie" class="collapse">
-            <p id="cross-1">
-                Prvý pôjde chodec, druhé červené, tretie zelené
-                <br /> Prečo?
-                <br /> Na vozovku vstupuje chodec, ktorému vodorovná dopravná značka priechod pre chodcov určuje prednosť.
-                <br /> Následne získava prednosť červené vozidlo, ktoré je na hlavnej ceste, posledné vstúpi do križovatky zelené vozidlo čakajúce na značke 'STOP'.
+
+        <div id="vysvetlenie" >
+            <p>
+
+                <br /> Na spustenie simulácie pohybu auta je potrebné naň kliknúť.
+                <br /> Ďalašie auto môže byť spustené po prejdení predošlého, je potrebné počkať 2 sekundy.
+                <br /> Pre zobrazenie popisu správneho riešenia je potrebné stlačiť <b>'Vysvetlenie'</b>.
+                <br /> Pre pôvodný stav križovatky je potrebné stlačiť tlačidlo <b>'Reset'</b>.
+                <br /> Na spustenie animácie správneho riešenia je potrebné stlačiť tlačidlo <b>'Správne riešenie'</b>.
             </p>
         </div>
     </div>

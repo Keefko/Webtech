@@ -73,34 +73,25 @@
         </canvas>
         <div class="center">
             <button data-toggle="collapse" class="btn btn-primary" data-target="#vysvetlenie">Vysvetlenie</button>
-            <button class="btn btn btn-success text-center" onclick="simulation()">Spravne riešenie</button>
+            <button class="btn btn btn-success text-center" onclick="simulation()">Správne riešenie</button>
             <button class="btn btn btn-success text-center" onclick="resetCrossroad()">Reset</button>
         </div>
         <div id="vysvetlenie" class="collapse">
-            <p>Prvý pôjde chodec, druhé modré vozidlo, tretie zelené
-            <h5>Prečo?</h5>
-            <p class="cross-text">Na vozovku vstupuje chodec, ktorému vodorovná dopravná značka priechod pre chodcov určuje prednosť. Vozidlá ho nesmú ohroziť ani obmedziť.
-            <br /> Následne získava prednosť modré vozidlo, ktoré sa nachádza v kruhovom objazde riadenom dopravnou značkou
-            'DAJ PREDNOSŤ V JAZDE'. Tretie vozidla čaká pred objazdom, po prejdení objazdu modrým vozidlom ju získava.
+            <p id="cross-1">
+                Prvý pôjde chodec, druhé modré vozidlo, tretie zelené
+                <br /> Prečo?
+                <br /> Na vozovku vstupuje chodec, ktorému vodorovná dopravná značka priechod pre chodcov určuje prednosť. Vozidlá ho nesmú ohroziť ani obmedziť.
+                <br /> Následne získava prednosť modré vozidlo, ktoré sa nachádza v kruhovom objazde riadenom dopravnou značkou
+                'DAJ PREDNOSŤ V JAZDE'. Tretie vozidla čaká pred objazdom, po prejdení objazdu modrým vozidlom ju získava.
             </p>
         </div>
     </div>
 </section>
 
-<footer>
-    <div class="container text-center">
-        <script src="counters.js"></script>
-        <p>Created by Team34 - Némethy,Zbín,Kohout</p>
-        <div class="visits">Celkovo návštev :
-            <img src="https://hitwebcounter.com/counter/counter.php?page=7177573&style=0007&nbdigits=5&type=page&initCount=0" title="Visits Count" Alt="analytics counter">
-
-            <br>
-            <script>
-                document.write("Bol si tu <b>" + amt() + " - krát.")
-            </script>
-        </div>
-    </div>
+<footer class="text-center">
+    <p>Created by Team34 - Némethy,Zbín,Kohout</p>
 </footer>
+
 
 </body>
 </html>
